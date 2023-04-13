@@ -1,0 +1,123 @@
+{
+  "Messages": {
+    "Message001": "Champ obligatoire",
+    "Message002": "Champ Incorrect",
+    "Message003": "Email Incorrect",
+    "Message004": "Le montant est incorrect"
+  },
+  "NeoFileUploader": {
+    "File": "Pièce jointe",
+    "UploadButton": "+",
+    "Categories": "Catégorie du document",
+    "DatePro": "Date du pro",
+    "DateEnregistrement": "Date Enregistrement",
+    "Required-msg": "Merci de vérifier vos données. Il faut rattacher le document en spécifiant sa catégorie",
+    "Table": {
+      "File": "Fichier",
+      "Category": "Catégorie",
+      "Reference": "Réfèrence",
+      "DatePro": "Date du pro",
+      "DateEnregistrement": "Date Enregistrement",
+      "Status": "Etat",
+      "Actions": "Actions"
+    },
+    "ExpansionPanel": "Liste des pièces jointes"
+  },
+  "Boutons": {
+    "btn_valider": "Valider",
+    "btn_ne_pas_valider": "Ne pas valider",
+    "btn_enregistrer": "Enregistrer"
+  },
+
+  "F01001": {
+    "CHRONO": "Chrono",
+    "CP_CTX_OC_REFERENCE": "Société",
+    "CP_CTX_OC_DATE": "Type de Commande ",
+    "CP_CTX_BAILLEUR": "N° de Commande ",
+    "CP_CTX_PRET_REFERENCE": "Date de la Commande",
+    "CP_CTX_PRET_TYPE": "Centre de Coût ",
+    "CP_CTX_PRET_DATE": "Montant TTC",
+    "CP_CTX_PROJET_NOM": "Nom du projet",
+    "CP_CTX_CODE_DEVISE": "Devise du compte",
+    "CP_CTX_PRET_MONTANT": "Montant Financement",
+    "CP_CTX_COMPTE_NOMBRE": "Nombre de comptes",
+    "CP_CTX_AUTRES_INFOS": "Autres Informations",
+    "CP_CTX_SIGNATAIRE": "Signataire",
+    "CP_CTX_PRET_TYPE_ITEMS": [
+      { "text": "Prêt", "value": "PRET" },
+      { "text": "Don", "value": "DON" }
+    ],
+    "expansion-panels": {
+      "ep0101": "Données Commande",
+      "ep0102": "Données Fournisseur"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "1. Fiche de dérogation de budget",
+      "2. Fiche de transfert de budget",
+      "3. Devis",
+      "4. Cahier des charges",
+      "9. Autres"
+    ],
+    "CHAMPS_COMPTES": {
+      "NOMPROJET": "Nom du projet",
+      "DEVISE": "Devise",
+      "MONTANT": "Montant",
+      "ButtonAdd": "Ajouter"
+    },
+    "Table_Comptes_Message": {
+      "Message001": "Merci de vérifier les données saisies. Tous les champs doivent être remplis",
+      "Message002": "Le nombre de projet ne doit pas dépaser le nombre de compte du Financement ",
+      "Message003": "Le montant total des projets doit être égal au montant du financement"
+    }
+  },
+  "F01002": {
+    "DonneesDemande": "Données Demande",
+    "CP_DAD_REFRENCE": "Reference Demande",
+    "CP_DAD_SOCIETE": "Société",
+    "SP_DAD_MAGASIN": "Magasin",
+    "SP_DAD_CENTRE_COUTS": "Centre de Coût",
+    "SP_DAD_STRUCTURE": "Structure de Validation",
+    "CP_DAD_JUSTIFICATIF_DEMANDES": "Justificatif de la demande",
+    "CP_DAD_COUT_ESTIME": "Coût Estimé",
+    "CP_DAD_DELAI_RECEPTION": "Délai Réception",
+    "CP_DAD_FRS_PROPOSITION": "Proposition Fournisseur / Prestataires de Service",
+    "CP_DAD_FRS_DEPENSE_DESIGNATION": "Désignation de la Dépense",
+    "CP_DAD_FRS_DEPENSE_JUSTIF": "Justification de la Dépense",
+
+    "CP_CTX_PROJET_NOM": "المشروع",
+    "CP_CTX_CODE_DEVISE": "العملة",
+    "CP_CTX_PRET_MONTANT": "مبلغ التمويل",
+    "CP_CTX_COMPTE_NOMBRE": "عدد الحسابات الخاصة",
+    "CP_CTX_AUTRES_INFOS": "معلومات أخرى",
+    "CP_CTX_PRET_TYPE_ITEMS": [
+      { "text": "قرض", "value": "PRET" },
+      { "text": "هبة", "value": "DON" }
+    ],
+
+    "CP_CTX_SIGNATAIRE": "الموقع على الطلب",
+    "expansion-panels": {
+      "ep0101": "بيانات فتح حساب خاص",
+      "ep0102": "تفاصيل الحساب"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ],
+    "CHAMPS_COMPTES": {
+      "NOMPROJET": "المشروع",
+      "DEVISE": "العملة",
+      "MONTANT": "مبلغ التمويل",
+      "ButtonAdd": "إضافة"
+    },
+    "Table_Comptes_Message": {
+      "Message001": "الرجاء التحقق من البيانات المدخلة وإعادة المحاولة مرة أخرى",
+      "Message002": "العدد الجملي للمشاريع يجب أن يكون مساوي لعدد الحسابات",
+      "Message003": "المبلغ الجملي للمشاريع يجب أن يكون مساوياً المبلغ التمويل"
+    }
+  }
+}

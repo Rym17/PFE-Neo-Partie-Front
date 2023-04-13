@@ -1,0 +1,1709 @@
+{
+  "CP": {
+    "TD_JS_JUSTIFICATIF_c04_ITEMS": [
+      { "ID": "001", "VALEUR": "مؤمن" },
+      { "ID": "002", "VALEUR": "غير مؤمن" }
+    ],
+
+    "TD_JS_PHASES_JUGEMENTS_c01_ITEMS": [
+      { "ID": "001", "VALEUR": "منشور في انتظار  المفاوضة" },
+      { "ID": "002", "VALEUR": "منشور في انتظار  المفاوضة" },
+      { "ID": "003", "VALEUR": "مفصول في انتظار  الرقن" },
+      { "ID": "004", "VALEUR": "مفصول في انتظار  الامضاء" },
+      { "ID": "005", "VALEUR": "مفصول في انتظار  الارسال إلى التسجيل" },
+      { "ID": "006", "VALEUR": "مفصول في انتضار التسجيل" },
+      { "ID": "007", "VALEUR": "مفصول في انتضار التسجيل" },
+      { "ID": "008", "VALEUR": "مفصول في انتضار التوجيه إلى مصلحة الأحكام" },
+      { "ID": "009", "VALEUR": "مفصول و قابل للتسليم" }
+    ],
+    "TD_JS_PHASES_JUGEMENTS_c02_ITEMS": [
+      { "ID": "001", "VALEUR": "جلسة المرافة" },
+      { "ID": "002", "VALEUR": "منشور في انتظار  المفاوضة" },
+      { "ID": "003", "VALEUR": "تحرير منطوق الحكم" },
+      { "ID": "004", "VALEUR": "تلخيص الحكم و توجيهه إلى مصلحة الرقن" },
+      { "ID": "005", "VALEUR": "توجيه الحكم ممضى إلى الكتابة" },
+      { "ID": "006", "VALEUR": "توجيه الحكم إلى القباضة المالية" },
+      { "ID": "007", "VALEUR": "توجيه الحكم إلى القباضة المالية" },
+      { "ID": "008", "VALEUR": "رجوع الحكم من قباضة التسجيل" },
+      { "ID": "009", "VALEUR": "توجيه الحكم لمصلحة الأحكام" }
+    ],
+    "CP_JS_ANNEE_JUDICIAIRE": [
+      {
+        "ID": "2021-2022",
+        "VALEUR": "2022/2021"
+      }
+    ],
+    "CP_JS_MATIERE": [
+      { "ID": "001", "VALEUR": "إقامة حجج الوفاة" },
+      { "ID": "002", "VALEUR": "ابحاث حوادث الشغل" },
+      { "ID": "003", "VALEUR": "استئناف مدني" },
+      { "ID": "004", "VALEUR": "اكساء الصيغة التنفيذية" },
+      { "ID": "005", "VALEUR": "الأذون على العرائض" },
+      { "ID": "006", "VALEUR": "الأكرية" },
+      { "ID": "007", "VALEUR": "الإحالة على المرتبات" },
+      { "ID": "008", "VALEUR": "الاحكام" },
+      { "ID": "009", "VALEUR": "الاستحقاق" },
+      { "ID": "010", "VALEUR": "الاستعجالي" },
+      { "ID": "011", "VALEUR": "الاوامر بالدفع" },
+      { "ID": "012", "VALEUR": "البيوعات العقارية" },
+      { "ID": "013", "VALEUR": "التبني" },
+      { "ID": "014", "VALEUR": "التجاري" },
+      { "ID": "015", "VALEUR": "التقاديم" },
+      { "ID": "016", "VALEUR": "التنصيص بالحالة المدنية" },
+      { "ID": "017", "VALEUR": "الجنسية" },
+      { "ID": "018", "VALEUR": "الشخصي" },
+      { "ID": "019", "VALEUR": "الشغل" },
+      { "ID": "020", "VALEUR": "العقارية" },
+      { "ID": "021", "VALEUR": "العقل على الاجور والمرتبات" },
+      { "ID": "022", "VALEUR": "المدني" },
+      { "ID": "023", "VALEUR": "المدنية" },
+      { "ID": "024", "VALEUR": "المصادقة على عقود الكفالة" },
+      { "ID": "025", "VALEUR": "النفقات" },
+      { "ID": "026", "VALEUR": "بطاقة الالزام" },
+      { "ID": "027", "VALEUR": "توقيف تنفيذ الاحكام المدنية" },
+      { "ID": "028", "VALEUR": "حالة مدنية" },
+      { "ID": "029", "VALEUR": "حوزي" },
+      { "ID": "030", "VALEUR": "شغل صلحي" },
+      { "ID": "031", "VALEUR": "شغل مجلسي" },
+      { "ID": "032", "VALEUR": "ملك تجاري" },
+      { "ID": "033", "VALEUR": "نصف الاجرة في حوادث الشفل" }
+    ],
+    "CP_JS_JOUR_AUDIENCE": [
+      { "ID": "001", "VALEUR": "الاثنين" },
+      { "ID": "002", "VALEUR": "الثلاثاء " },
+      { "ID": "003", "VALEUR": "الاربعاء " },
+      { "ID": "004", "VALEUR": "الخميس " },
+      { "ID": "005", "VALEUR": "الجمعة " }
+    ],
+    "CP_JS_JOUR_ACCES_DOSSIER": [
+      { "ID": "001", "VALEUR": "الاثنين صباحا" },
+      { "ID": "002", "VALEUR": "الاثنين مساءا" },
+      { "ID": "003", "VALEUR": "الثلاثاء صباحا" },
+      { "ID": "004", "VALEUR": "الثلاثاء مساءا" },
+      { "ID": "005", "VALEUR": "الاربعاء صباحا" },
+      { "ID": "006", "VALEUR": "الاربعاء مساءا" },
+      { "ID": "007", "VALEUR": "الخميس صباحا" },
+      { "ID": "008", "VALEUR": "الخميس مساءا" },
+      { "ID": "009", "VALEUR": "الجمعة صباحا" },
+      { "ID": "010", "VALEUR": "الجمعة مساءا" },
+      { "ID": "011", "VALEUR": "كامل أيام الأسبوع" }
+    ],
+    "CP_JS_HEURE_AUDIENCE": [
+      { "ID": "0900", "VALEUR": "التاسعة صباحا" },
+      { "ID": "1400", "VALEUR": "الثانية ظهرا" }
+    ],
+    "CP_JS_SALLE_AUDIENCE": [
+      { "ID": "001", "VALEUR": "القاعة عدد 1" },
+      { "ID": "002", "VALEUR": "القاعة عدد 2" },
+      { "ID": "003", "VALEUR": "القاعة عدد 3" },
+      { "ID": "004", "VALEUR": "القاعة عدد 4" },
+      { "ID": "005", "VALEUR": "القاعة عدد 5" },
+      { "ID": "006", "VALEUR": "القاعة عدد 6" },
+      { "ID": "007", "VALEUR": "مكتبية" }
+    ],
+    "CF_JS_DEGRE_AFFAIRE": [
+      { "ID": "001", "VALEUR": "إبتدائية" },
+      { "ID": "002", "VALEUR": "استئنافية" }
+    ],
+    "CF_JS_TYPE_AFFAIRE": [
+      { "ID": "001", "VALEUR": "مدني" },
+      { "ID": "002", "VALEUR": "جزائي" }
+    ],
+    "CF_JS_TYPE_LITIGE": [
+      { "ID": "001", "VALEUR": "غرم ضرر" },
+      { "ID": "002", "VALEUR": "عقلة توقيفية" },
+      { "ID": "003", "VALEUR": "عقلة تحفظية" },
+      { "ID": "004", "VALEUR": "عقلة تنفيذية" },
+      { "ID": "005", "VALEUR": "أداء مال" },
+      { "ID": "006", "VALEUR": "إكساء بالصيغة التنفيذية" },
+      { "ID": "007", "VALEUR": "إبطال عقد بيع" },
+      { "ID": "008", "VALEUR": "رفع مضرة" },
+      { "ID": "009", "VALEUR": "الخروج لعدم الصفة" }
+    ],
+    "CP_JS_PHASE": [
+      { "ID": "001", "VALEUR": "الطور الأول" },
+      { "ID": "002", "VALEUR": "طور تبادل التقارير" },
+      { "ID": "003", "VALEUR": "طور المرافعة" },
+      { "ID": "004", "VALEUR": "طور المفاوضة والتصريح بالحكم" },
+      { "ID": "999", "VALEUR": "غير متاح" }
+    ]
+  },
+  "Messages": {
+    "Message001": "هذا الحقل إجباري",
+    "Message002": "هذا الحقل إجباري",
+    "Message003": "البريد الإلكتروني غير صحيح",
+    "Message004": "المبلغ غير صحيح"
+  },
+  "NeoFileUploader": {
+    "File": "الوثيقة",
+    "UploadButton": "تحميل",
+    "Categories": "نوع الوثيقة",
+    "DatePro": "تاريخ المؤيد",
+    "DateEnregistrement": "تاريخ التسجيل",
+    "Required-msg": "الرجاء التحقق من البيانات التي تم إدخالها. إرفاق الوثيقة و نوع الوثيقة إلزامي",
+    "Table": {
+      "File": "الوثيقة",
+      "Category": "نوع الوثيقة",
+      "DatePro": "تاريخ المؤيد",
+      "DateEnregistrement": "تاريخ التسجيل",
+      "Reference": " المرجع",
+      "Status": "الحالة",
+      "Actions": "التدابير "
+    },
+    "ExpansionPanel": "قائمة الوثائق"
+  },
+  "message": "AR",
+  "Boutons": {
+    "btn_valider": "المصادقة",
+    "btn_ne_pas_valider": "عدم المصادقة",
+    "btn_enregistrer": "تسجيل"
+  },
+  "F01001": {
+    "Fields": {
+      "CF_JS_ID_AVOCAT": "رمز المحامي",
+      "CF_JS_GENRE": "الأستاذ/الأستاذة",
+      "CF_JS_PRENOM_PERSONNE": "الاسم",
+      "CF_JS_NOM_PERSONNE": "اللقب",
+      "CF_JS_DEGRE_PERSONNE": "الدرجة",
+      "CF_JS_REGION_PERSONNE": "الجهة",
+      "CF_JS_ADRESSE_PERSONNE": "المقر",
+      "CF_JS_TELE_FIXE_PERSONNE": "الهاتف القار",
+      "CF_JS_TELE_MOBILE_PERSONNE": "الهاتف الجوال",
+      "CF_JS_EMAIL_PERSONNE": "العنوان الالكتروني",
+      "CF_JS_MATRICULE_ONAT": "المعرف لدى الهيئة الوطنية للمحامين",
+      "CF_JS_MATRICULE_FISCALE": "المعرف الجبائي",
+      "CF_JS_AUTRE_INFORMATIONS": "معطيات أخرى",
+      "": "",
+      "CF_JS_FORMULE_AVOCAT": "الصيغة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "جذاذة محامي",
+      "ep0102": "تفاصيل الحساب"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ],
+    "CHAMPS_COMPTES": {
+      "NOMPROJET": "المشروع",
+      "DEVISE": "العملة",
+      "MONTANT": "مبلغ التمويل",
+      "ButtonAdd": "إضافة"
+    },
+    "Table_Comptes_Message": {
+      "Message001": "الرجاء التحقق من البيانات المدخلة وإعادة المحاولة مرة أخرى",
+      "Message002": "العدد الجملي للمشاريع يجب أن يكون مساوي لعدد الحسابات",
+      "Message003": "المبلغ الجملي للمشاريع يجب أن يكون مساوياً المبلغ التمويل"
+    }
+  },
+  "F01002": {
+    "Fields": {
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_MATRICULE_CHAMBRE_HUISSIER": "المعرف لدى الغرفة الوطنية لعدول التنفيذ",
+      "CF_JS_GENRE": "الأستاذ/الأستاذة",
+      "CF_JS_PRENOM_PERSONNE": "الاسم",
+      "CF_JS_NOM_PERSONNE": "اللقب",
+      "CF_JS_RATTACHEMENT_REGIONAL": "لدى ",
+      "CF_JS_ADRESSE_PERSONNE": "المقر",
+      "CF_JS_TELE_FIXE_PERSONNE": "الهاتف القار",
+      "CF_JS_TELE_MOBILE_PERSONNE": "الهاتف الجوال",
+      "CF_JS_EMAIL_PERSONNE": "العنوان الالكتروني",
+      "CF_JS_MATRICULE_FISCALE": "المعرف الجبائي",
+      "CF_JS_AUTRE_INFORMATIONS": "معطيات أخرى",
+
+      "CF_JS_FORMULE_HUISSIER_NOTAIRE": "الصيغة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "جذاذة عدل تنفيذ",
+      "ep0102": "تفاصيل الحساب"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01003": {
+    "Fields": {
+      "CF_JS_NIVEAU_ETUDE": "المستوى الدراسي",
+      "CF_JS_ID_PERSONNE": "رمز الشخص",
+      "CF_JS_GENRE": "السيد/السيدة",
+      "CF_JS_PRENOM_PERSONNE": "الاسم",
+      "CF_JS_NOM_COMPLET_PERSONNE": "الاسم الرباعي",
+      "CF_JS_NOM_PERSONNE": "اللقب",
+      "CF_JS_NOM_CONJOINT": "لقب الزوج",
+      "CF_JS_PRENOM_MERE": "اسم الأم",
+      "CF_JS_NOM_MERE": "لقب الأم",
+      "CF_JS_DATE_NAISSANCE_PERSONNE": "تاريخ الولادة",
+      "CF_JS_LIEU_NAISSANCE_PERSONNE": "مكان الولادة",
+      "CF_JS_NATIONALITE_PERSONNE": "الجنسية",
+      "CF_JS_ADRESSE_PERSONNE": "المقر",
+      "CF_JS_PROFESSION_PERSONNE": "المهنة",
+      "CF_JS_TELE_FIXE_PERSONNE": "الهاتف القار",
+      "CF_JS_TELE_MOBILE_PERSONNE": "الهاتف الجوال",
+      "CF_JS_EMAIL_PERSONNE": "العنوان الالكتروني",
+      "CF_JS_TYPE_CARTE_IDENTIFICATION": "نوع بطاقة الهوية",
+      "CF_JS_NUM_CARTE_IDENTIFICATION": "عدد بطاقة الهوية",
+      "CF_JS_DATE_EMISSION_CARTE_IDENTIFICATION": "تاريخ الإصدار",
+      "CF_JS_LIEU_EMISSION_CARTE_IDENTIFICATION": "مكان الإصدار",
+      "CF_JS_DATE_EXPIRATION_CARTE_IDENTIFICATION": "تاريخ نهاية الصلوحية",
+      "CF_JS_TYPE_MOBILE_ID": "نوع الهوية الرقمية",
+      "CF_JS_NUM_MOBILE_ID": "عدد الهوية الرقمية",
+      "CF_JS_AUTRE_INFORMATIONS": "معطيات أخرى",
+
+      "CF_JS_FORMULE_PERSONNE": "الصيغة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "جذاذة شخص طبيعي",
+      "ep0102": "تفاصيل الحساب"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01004": {
+    "Fields": {
+      "CF_JS_ID_PERSONNE": "رمز الشركة",
+      "CF_JS_NOM_AR": "التسمية بالعربية",
+      "CF_JS_TYPE_ENTREPRISE": "صبغة الشركة",
+      "CF_JS_NOM_FR": "التسمية بالفرنسية",
+      "CF_JS_ADRESSE_SOCIALE": "المقر الاجتماعي",
+      "CF_JS_SPECIALITE_ENTREPRISE": "الاختصاص",
+      "CF_JS_NUM_RNE": "المعرف الوحيد",
+      "CF_JS_NUM_RC": "عدد السجل التجاري",
+      "CF_JS_PAYE_RC": "بلد السجل التجاري",
+
+      "CF_JS_PRENOM_PERSONNE": "الاسم ",
+      "CF_JS_NOM_COMPLET_PERSONNE": "الاسم الرباعي",
+      "CF_JS_NOM_PERSONNE": "اللقب",
+      "CF_JS_NOM_CONJOINT": "لقب الزوج",
+      "CF_JS_PRENOM_MERE": "اسم الأم",
+      "CF_JS_NOM_MERE": "لقب الأم",
+      "CF_JS_DATE_NAISSANCE_PERSONNE": "تاريخ الولادة",
+      "CF_JS_LIEU_NAISSANCE_PERSONNE": "مكان الولادة",
+      "CF_JS_NATIONALITE_PERSONNE": "الجنسية",
+      "CF_JS_ADRESSE_PERSONNE": "المقر",
+      "CF_JS_PROFESSION_PERSONNE": "المهنة",
+      "CF_JS_TELE_FIXE_PERSONNE": "الهاتف القار",
+      "CF_JS_TELE_MOBILE_PERSONNE": "الهاتف الجوال",
+      "CF_JS_TYPE_CARTE_IDENTIFICATION": "نوع بطاقة الهوية",
+      "CF_JS_NUM_CARTE_IDENTIFICATION": "عدد بطاقة الهوية",
+      "CF_JS_DATE_EMISSION_CARTE_IDENTIFICATION": "تاريخ الإصدار",
+      "CF_JS_LIEU_EMISSION_CARTE_IDENTIFICATION": "مكان الإصدار",
+      "CF_JS_DATE_EXPIRATION_CARTE_IDENTIFICATION": "تاريخ نهاية الصلوحية",
+      "CF_JS_TYPE_MOBILE_ID": "نوع الهوية الرقمية",
+      "CF_JS_NUM_MOBILE_ID": "عدد الهوية الرقمية",
+      "CF_JS_EMAIL_PERSONNE": "العنوان الالكتروني",
+      "CF_JS_AUTRE_INFORMATIONS": "معطيات أخرى",
+
+      "CF_JS_FORMULE_PERSONNE": "الصيغة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "جذاذة  شخص معنوي",
+      "ep0102": "الممثل القانوني"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01005": {
+    "Fields": {
+      "CF_JS_ID_DOSSIER": "رمز الملف",
+      "CF_JS_CATEGORIE_DOSSIER": "صنف الملف",
+      "CF_JS_FORMULE_AVOCAT": "صيغة المحامي",
+      "CF_JS_SPECIALITE": "الاختصاص",
+      "CF_JS_DEGRE_AFFAIRE": "درجة القضية",
+      "CF_JS_TYPE_AFFAIRE": "نوع القضية",
+      "CF_JS_CATEGORIE_LITIGE": "صنف النزاع",
+      "CF_JS_TYPE_LITIGE": "موضوع النزاع",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_NUM_CONSIGNATION_TRIBUNAL": "عدد التضمين بالمحكمة",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الأولى",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ROLE_AVOCAT": "صفة المحامي",
+      "CF_JS_FORMULE_AVOCAT01": "صيغة المحامي ",
+      "CF_JS_CLIENT": "النيابة عن",
+      "CF_JS_TIERS": "الموجه إليه",
+      "CF_JS_DATE_SIGNIFICATION": "التاريخ (عريضة / اعلام نيابة)",
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_FORMULE_HUSSIER_NOTAIRE": "صيغة  عدل التنفيذ",
+      "CF_JS_NUM_PV": "عدد الرقيم",
+      "CF_JS_TEXTE_DATE_CITATION": "تاريخ الاستدعاء بلسان القلم",
+      "CF_JS_DATE_CITATION": "تاريخ الاستدعاء",
+      "CF_JS_TEXTE_HEURE_CITATION": "ساعة الاستدعاء بلسان القلم",
+      "CF_JS_HEURE_CITATION": "ساعة الاستدعاء",
+      "CF_JS_CLIENT01": "الطالب",
+      "CF_JS_FORMULE_ALL_DEMANDEURS": "الصيغة",
+      "CF_JS_TIERS01": "الموجه إليه",
+      "CF_JS_RECEPTION_CITATION": "المآل",
+
+      "CF_JS_SUJET_CITATION": "موضوع الاستدعاء",
+      "CF_JS_DATE_ENREGISTREMENT_CITATION": "تاريخ التسجيل",
+      "CF_JS_FRAIS_CITATION_LETTRE": "معاليم الرقيم بلسان القلم",
+      "CF_JS_FRAIS_CITATION_CHIFFRE": "معاليم الرقيم بالأرقام",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "تفاصيل الملف العدلي",
+      "ep0102": "المدعي/المدعية/المدعون",
+      "ep0103": "المدعى عليه/عليها/عليهم",
+      "ep0104": "المحامون",
+      "ep0105": "محامو الضد",
+      "ep0106": "موضوع الدعوى",
+      "ep0107": "الطلبات",
+      "ep0108": "الاستدعاءات"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01006": {
+    "Fields": {
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_DECISION": "القرار",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_JUGE_PRESIDENT": "الرئيس",
+      "CF_JS_MEMBRE_JUGE": "الأعضاء",
+      "CF_JS_GREFFIER": "الكاتب",
+      "CF_JS_DATE_PV_AUDIENCE": "جلسة يوم",
+      "CF_JS_CAUSE_REPORT_GREFFIER": "المٱل",
+      "CF_JS_CAUSE_REPORT_JUGE": "اثر الجلسة",
+      "CF_JS_MONTANT_AVANCE": "مقدار التسبقة",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_PV_AUDIENCE": "الصيغة",
+      "CF_JS_CHAMBRE": "الدائرة",
+      "CF_JS_PHASE": "الطور  ",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة المقبلة",
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": "الحالة الرئيسية للملف",
+      "CF_JS_TRAVAUX_PREPARATOIRES": "الصنف",
+      "CF_JS_TRAVAUX_DATE_DEBUT": "التاريخ",
+      "CF_JS_DATE_AUDIENCE_BUREAU": "التاريخ",
+      "CF_JS_HEURE_AUDIENCE_BUREAU": "الساعة",
+      "CF_JS_DETAILS_AUDIENCE_BUREAU": "التفاصيل",
+      "CF_JS_DATE_DEPLACEMENT": "التاريخ",
+      "CF_JS_LIEUX": "المكان",
+      "CF_JS_DETAILS_DEPLACEMENT": "التفاصيل",
+      "CF_JS_BUREAU": "المكتب",
+      "CF_JS_DETAILS_EXPERTISE": "التفاصيل",
+      "CF_JS_DETAILS_EXPERTISE_HUISSIER": "التفاصيل",
+      "CF_JS_PLANIFICATION_TRAVAUX_PREPARATOIRES": "أعمال تحضيرية"
+    },
+
+    "expansion-panels": {
+      "ep0101": "الجلسة",
+      "ep0102": "محضر الجلسة",
+      "ep0103": "القرار",
+      "exp0101": "مامورية اختبار",
+      "exp0102": "مامورية أداء يمين",
+      "exp0103": "  أعمال تحضيرية",
+      "exp0104": " تحريرات مكتبية",
+      "exp0105": " توجهات عينية",
+      "exp0106": "  الحضور"
+    },
+    "Items": {
+      "CF_JS_TRAVAUX_PREPARATOIRES": [
+        { "ID": "003", "VALEUR": "تحريرات مكتبية" },
+        { "ID": "004", "VALEUR": "توجهات عينية" }
+      ],
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": [
+        { "ID": "000", "VALEUR": "غير محدد" },
+        { "ID": "001", "VALEUR": "في انتضار الملف الورقي" },
+        { "ID": "002", "VALEUR": "منشور" },
+        { "ID": "003", "VALEUR": "مفصول" }
+      ],
+      "CF_JS_DECISION": [
+        {
+          "ID": "000",
+          "VALEUR": " تبادل التقارير في الأثناء إلكترونيا و عند الإقتضاء ورقيا "
+        },
+        { "ID": "001", "VALEUR": "تأخير الجلسة " },
+        { "ID": "002", "VALEUR": "تأخير الجلسة على حالتها" },
+        { "ID": "003", "VALEUR": "للطلب" }
+      ]
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01007": {
+    "Fields": {
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة الأولى",
+      "CF_JS_TRIBUNAL": "المحكمة",
+
+      "CF_JS_JUGE_RAPPORTEUR": "إسم المكلف بتقرير الملف",
+      "CF_JS_TYPE_LITIGE": "موضوع النازلة",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ عريضة الدعوى"
+    },
+
+    "expansion-panels": {
+      "ep0101": "قشرة ملف",
+      "ep0102": "الدوافع",
+      "ep0103": "الطلبات"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01008": {
+    "Fields": {},
+
+    "expansion-panels": {
+      "ep0101": "المؤيدات"
+    },
+    "FILES_CATEGORIES_ITEMS": ["وثائق أخرى"]
+  },
+  "F01009": {
+    "Fields": {},
+
+    "expansion-panels": {
+      "ep0101": "وثائق أخرى"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01010": {
+    "Fields": {
+      "CF_JS_FORMULE_BUREAU_AVOCAT": "صيغة المحام",
+      "CF_JS_FORMULE_AVOCAT": "صيغة المحامي (نائبه)",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الأولى",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "مكتب المحامي",
+      "ep0102": "معطيات عامة",
+      "ep0103": "الأطراف - المدعي/المدعية/المدعون",
+      "ep0104": "الأطراف - المدعى عليه/عليها/عليهم",
+      "ep0105": "موضوع الدعوى - الوقائع",
+      "ep0106": "موضوع الدعوى - الطلبات"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01011": {
+    "Fields": {
+      "CF_JS_NUM_AFFAIRE": "عدد القضية ",
+      "CF_JS_TRIBUNAL": "المحكمة ",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_JUGEMENT": "تاريخ الحكم ",
+
+      "CF_JS_FORMULE_ALL_DEMANDEURS ": "المدعي ",
+      "CF_JS_FORMULE_ALL_DEFENDEURS": "المدعى عليه ",
+      "CF_JS_TYPE_LITIGE": "موضوع القضية ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ تقديمها ",
+      "CF_JS_DATE_AUDIENCE": "وبجلسة يوم ",
+      "CF_JS_PV_FORMULE_AUDIENCE": "محضر الجلسة ",
+      "CF_JS_JUGE_PRESIDENT ": "رئيس الدائرة ",
+      "CF_JS_GREFFIER ": "الكاتب "
+    },
+
+    "expansion-panels": {
+      "ep0101": "حكم بالطرح"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01012": {
+    "Fields": {},
+
+    "expansion-panels": {
+      "ep0101": "توزيع عمل المحكمة"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01013": {
+    "Fields": {},
+
+    "expansion-panels": {
+      "ep0101": "تركيبة الدائرة"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01014": {
+    "Fields": {
+      "CF_JS_FORMULE_BUREAU_AVOCAT": "صيغة المحام",
+      "CF_JS_ID_DOSSIER": "رمز الملف",
+      "CF_JS_CATEGORIE_DOSSIER": "صنف الملف",
+      "CF_JS_FORMULE_AVOCAT": "صيغة المحامي",
+      "CF_JS_SPECIALITE": "الاختصاص",
+      "CF_JS_DEGRE_AFFAIRE": "درجة القضية",
+      "CF_JS_TYPE_AFFAIRE": "نوع القضية",
+      "CF_JS_CATEGORIE_LITIGE": "صنف النزاع",
+      "CF_JS_TYPE_LITIGE": "موضوع النزاع",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_NUM_CONSIGNATION_TRIBUNAL": "عدد التضمين بالمحكمة",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الأولى",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ROLE_AVOCAT": "صفة المحامي",
+      "CF_JS_FORMULE_AVOCAT01": "صيغة المحامي ",
+      "CF_JS_CLIENT": "النيابة عن",
+      "CF_JS_TIERS": "الموجه إليه",
+      "CF_JS_DATE_SIGNIFICATION": "التاريخ (عريضة / اعلام نيابة)",
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_FORMULE_HUSSIER_NOTAIRE": "صيغة  عدل التنفيذ",
+      "CF_JS_NUM_PV": "عدد الرقيم",
+      "CF_JS_TEXTE_DATE_CITATION": "تاريخ الاستدعاء بلسان القلم",
+      "CF_JS_DATE_CITATION": "تاريخ الاستدعاء",
+      "CF_JS_TEXTE_HEURE_CITATION": "ساعة الاستدعاء بلسان القلم",
+      "CF_JS_HEURE_CITATION": "ساعة الاستدعاء",
+      "CF_JS_CLIENT01": "الطالب",
+      "CF_JS_FORMULE_ALL_DEMANDEURS": "الصيغة",
+      "CF_JS_TIERS01": "الموجه إليه",
+      "CF_JS_RECEPTION_CITATION": "المآل",
+      "CF_JS_SUJET_CITATION": "موضوع الاستدعاء",
+      "CF_JS_DATE_ENREGISTREMENT_CITATION": "تاريخ التسجيل",
+      "CF_JS_FRAIS_CITATION_LETTRE": "معاليم الرقيم بلسان القلم",
+      "CF_JS_FRAIS_CITATION_CHIFFRE": "معاليم الرقيم بالأرقام",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "مكتب المحامي",
+      "ep0102": "معطيات عامة",
+      "ep0103": "الأطراف",
+      "ep0104": "موضوع الدعوى",
+      "ep0105": "الطلبات"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01020": {
+    "Fields": {
+      "CF_JS_SUJET_LITIGE": "موضوع النزاع",
+      "CF_JS_MATIERE": "المادة",
+      "CF_JS_AUDIENCE_PREMIERE": "تعيين الجلسة الأولى ",
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_CHARGE_RESUME": "القاضي المكلف بالتلخيص",
+      "CF_JS_AUDIENCE_PREMIERE_AVACAT": "تاريخ الجلسة التي عينها المحامي"
+    },
+
+    "expansion-panels": {
+      "ep0101": "الاستدعاءات",
+      "ep0102": "المؤيدات"
+    },
+    "FILES_CATEGORIES_ITEMS": [],
+    "DataTable01_c01_ITEMS": [
+      { "ID": "001", "VALEUR": "المدعي" },
+      { "ID": "002", "VALEUR": "المدعى عليه " }
+    ]
+  },
+  "F01021": {
+    "Fields": {},
+
+    "expansion-panels": {
+      "ep0101": "الاستدعاءات",
+      "ep0102": "المؤيدات"
+    },
+    "FILES_CATEGORIES_ITEMS": [],
+    "DataTable05_c03_ITEMS": [
+      { "ID": "1", "VALEUR": "عقد قرض" },
+      { "ID": "2", "VALEUR": "كتب اعتراف بدين" },
+      { "ID": "3", "VALEUR": "عدد 2 كتب اعتراف بدين" },
+      { "ID": "4", "VALEUR": "فاتورة" },
+      { "ID": "5", "VALEUR": "فواتير" },
+      { "ID": "6", "VALEUR": "مبيالات" },
+      { "ID": "7", "VALEUR": "سند قرض" },
+      { "ID": "8", "VALEUR": "سند لأمر" },
+      { "ID": "9", "VALEUR": "صك بنكي" },
+      { "ID": "10", "VALEUR": "صك بنكي" },
+      { "ID": "11", "VALEUR": "وثيقة فتح الحساب الجاري" },
+      { "ID": "12", "VALEUR": "شهادة مسلمة من قابض المالية " }
+    ]
+  },
+  "F01022": {
+    "Fields": {
+      "CF_JS_JUGEMENT": "منطوق الحكم"
+    },
+    "expansion-panels": {
+      "ep0101": "الحكم"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01024": {
+    "Fields": {
+      "CF_JS_DATE_MANDAT": "تاريخ المأمورية",
+      "CF_JS_Rapport": "التقرير",
+      "CF_JS_RECU_RECUP_MISSION": "وصل تسلم المأمورية",
+      "CF_JS_DATE_RECUP_MISSION": "تاريخ تسلم المأمورية",
+      "CF_JS_Num_Mandat": "عدد المأمورية",
+      "CF_EXPERT": "الخبير الذي تسلم المأمورية",
+      "CF_JS_DATE_DEMANDE_EXPERTISE": "تاريخ المأمورية",
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_MONTANT_AVANCE": "مقدار التسبقة",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_Date_Retrait_Rapport": "تاريخ تسليم التقرير",
+      "CF_JS_RESUME_Rapport": "خلاصة التقرير",
+      "CF_JS_FORMULE_BUREAU_AVOCAT": "صيغة المحام",
+      "CF_JS_ID_DOSSIER": "رمز الملف",
+      "CF_JS_CATEGORIE_DOSSIER": "صنف الملف",
+      "CF_JS_FORMULE_AVOCAT": "صيغة المحامي",
+      "CF_JS_SPECIALITE": "الاختصاص",
+      "CF_JS_DEGRE_AFFAIRE": "درجة القضية",
+      "CF_JS_TYPE_AFFAIRE": "نوع القضية",
+      "CF_JS_CATEGORIE_LITIGE": "صنف النزاع",
+      "CF_JS_TYPE_LITIGE": "موضوع النزاع",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_NUM_CONSIGNATION_TRIBUNAL": "عدد التضمين بالمحكمة",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الأولى",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ROLE_AVOCAT": "صفة المحامي",
+      "CF_JS_FORMULE_AVOCAT01": "صيغة المحامي ",
+      "CF_JS_CLIENT": "النيابة عن",
+      "CF_JS_TIERS": "الموجه إليه",
+      "CF_JS_DATE_SIGNIFICATION": "التاريخ (عريضة / اعلام نيابة)",
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_FORMULE_HUSSIER_NOTAIRE": "صيغة  عدل التنفيذ",
+      "CF_JS_NUM_PV": "عدد الرقيم",
+      "CF_JS_TEXTE_DATE_CITATION": "تاريخ الاستدعاء بلسان القلم",
+      "CF_JS_DATE_CITATION": "تاريخ الاستدعاء",
+      "CF_JS_TEXTE_HEURE_CITATION": "ساعة الاستدعاء بلسان القلم",
+      "CF_JS_HEURE_CITATION": "ساعة الاستدعاء",
+      "CF_JS_CLIENT01": "الطالب",
+      "CF_JS_FORMULE_ALL_DEMANDEURS": "الصيغة",
+      "CF_JS_TIERS01": "الموجه إليه",
+      "CF_JS_RECEPTION_CITATION": "المآل",
+      "CF_JS_SUJET_CITATION": "موضوع الاستدعاء",
+      "CF_JS_DATE_ENREGISTREMENT_CITATION": "تاريخ التسجيل",
+      "CF_JS_FRAIS_CITATION_LETTRE": "معاليم الرقيم بلسان القلم",
+      "CF_JS_FRAIS_CITATION_CHIFFRE": "معاليم الرقيم بالأرقام",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة",
+      "CF_JS_CONTEXTE_EXPERTISE": "موضوع الإختبار"
+    },
+
+    "expansion-panels": {
+      "ep0101": "انشاء مأمورية",
+      "ep0102": "التسليم و التسبقة",
+      "ep0103": "التعديل",
+      "ep0104": "تقرير الاختبار",
+      "ep0105": "",
+
+      "ep01": "معطيات عامة",
+      "ep02": "الخبير",
+      "ep03": "الاعمال المطلوبة",
+      "ep04": "تسليم المؤمورية",
+      "ep05": "وصل التسبقة"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01025": {
+    "Fields": {
+      "CF_JS_DATE_JUGEMENT": "تاريخ الحكم",
+      "CF_JS_STATUT_JUGEMENT": "طور الحكم",
+      "CF_JS_MONTANT_ENREGISTREMENT": "مبلغ التسجيل",
+      "CF_JS_CHARGE_RESUME": "القاضي المكلف بالتلخيص",
+      "CF_JS_DATE_ENVOI_RESUME": "تاريخ الإحالة على التلخيص",
+      "CF_JS_DATE_RETOUR_RESUME": "تاريخ الرجوع من التلخيص",
+      "CF_JS_RESUME_ET_SAISI": "لُخِص مرقون ",
+      "CF_JS_DATE_ENVOI_SAISI": "تاريخ التوجيه لمصلحة الرقن",
+      "CF_JS_DATE_RETOUR_SAISI": "تاريخ الرجوع من مصلحة الرقن",
+      "CF_JS_RESUME_SAISI_SIGNE": "لُخِص مرقون و ممضى",
+      "CF_JS_DATE_ENVOI_SIGNATURE": "لُخِص مرقون و ممضى",
+      "CF_JS_DATE_RETOUR_SIGNATURE": "تاريخ الرجوع من الإمضاء",
+      "CF_JS_DATE_ENVOI_RECETTE_FINANCE": "تاريخ التوجيه لقابض التسجيل",
+      "CF_JS_DATE_RETOUR_RECETTE_FINANCE": "تاريخ الرجوع من التسجيل",
+      "CF_JS_DATE_ENVOI_SERVICE_JUGEMENT": "تاريخ التوجيه لمصلحة الأحكام",
+      "CF_JS_DATE_ENVOI_STOCK_AFFAIRE": "تاريخ التوجيه للخزينة"
+    },
+    "Items": {
+      "CF_JS_STATUT_JUGEMENT_ITEMS": [
+        { "ID": "001", "VALEUR": "بصدد التلخيص" },
+        { "ID": "002", "VALEUR": "بصدد التسجيل" },
+        { "ID": "003", "VALEUR": "لدى مصلحة الأحكام" }
+      ]
+    },
+
+    "expansion-panels": {
+      "ep0101": "طبيعة الحكم",
+      "ep0102": "التلخيص",
+      "ep0103": "الرقن",
+      "ep0104": "الامضاء",
+      "ep0105": "التسجيل و مصلحة الأحكام"
+    }
+  },
+  "F01026": {
+    "Fields": {
+      "CF_JS_DATE_MANDAT": "تاريخ المأمورية",
+      "CF_JS_Rapport": "التقرير",
+      "CF_JS_RECU_RECUP_MISSION": "وصل تسلم المأمورية",
+      "CF_JS_DATE_RECUP_MISSION": "تاريخ تسلم المأمورية",
+      "CF_JS_Num_Mandat": "عدد المأمورية",
+      "CF_NOTAIRE": "العدل الذي تسلم المأمورية",
+      "CF_JS_DATE_DEMANDE_EXPERTISE": "تاريخ المأمورية",
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_MONTANT_AVANCE": "مقدار التسبقة",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_Date_Retrait_Rapport": "تاريخ تسليم التقرير",
+      "CF_JS_RESUME_Rapport": "خلاصة التقرير",
+      "CF_JS_FORMULE_BUREAU_AVOCAT": "صيغة المحام",
+      "CF_JS_ID_DOSSIER": "رمز الملف",
+      "CF_JS_CATEGORIE_DOSSIER": "صنف الملف",
+      "CF_JS_FORMULE_AVOCAT": "صيغة المحامي",
+      "CF_JS_SPECIALITE": "الاختصاص",
+      "CF_JS_DEGRE_AFFAIRE": "درجة القضية",
+      "CF_JS_TYPE_AFFAIRE": "نوع القضية",
+      "CF_JS_CATEGORIE_LITIGE": "صنف النزاع",
+      "CF_JS_TYPE_LITIGE": "موضوع النزاع",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_NUM_CONSIGNATION_TRIBUNAL": "عدد التضمين بالمحكمة",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الأولى",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ROLE_AVOCAT": "صفة المحامي",
+      "CF_JS_FORMULE_AVOCAT01": "صيغة المحامي ",
+      "CF_JS_CLIENT": "النيابة عن",
+      "CF_JS_TIERS": "الموجه إليه",
+      "CF_JS_DATE_SIGNIFICATION": "التاريخ (عريضة / اعلام نيابة)",
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_FORMULE_HUSSIER_NOTAIRE": "صيغة  عدل التنفيذ",
+      "CF_JS_NUM_PV": "عدد الرقيم",
+      "CF_JS_TEXTE_DATE_CITATION": "تاريخ الاستدعاء بلسان القلم",
+      "CF_JS_DATE_CITATION": "تاريخ الاستدعاء",
+      "CF_JS_TEXTE_HEURE_CITATION": "ساعة الاستدعاء بلسان القلم",
+      "CF_JS_HEURE_CITATION": "ساعة الاستدعاء",
+      "CF_JS_CLIENT01": "الطالب",
+      "CF_JS_FORMULE_ALL_DEMANDEURS": "الصيغة",
+      "CF_JS_TIERS01": "الموجه إليه",
+      "CF_JS_RECEPTION_CITATION": "المآل",
+      "CF_JS_SUJET_CITATION": "موضوع الاستدعاء",
+      "CF_JS_DATE_ENREGISTREMENT_CITATION": "تاريخ التسجيل",
+      "CF_JS_FRAIS_CITATION_LETTRE": "معاليم الرقيم بلسان القلم",
+      "CF_JS_FRAIS_CITATION_CHIFFRE": "معاليم الرقيم بالأرقام",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "انشاء مأمورية",
+      "ep0102": "التسليم",
+      "ep0103": "التعديل",
+      "ep0104": " التقرير",
+      "ep0105": "",
+
+      "ep01": "معطيات عامة",
+      "ep02": "عدل الاشهاد",
+      "ep03": "الاعمال المطلوبة",
+      "ep04": "تسليم المؤمورية",
+      "ep05": "وصل التسبقة"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01029": {
+    "Fields": {
+      "CF_JS_NOTES_AFFAIRE": "الملاحضات",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": "الحالة الرئيسية للملف",
+      "CP_JS_ETAT_DOSSIER": "حالة الملف",
+      "CF_JS_CHARGE_RESUME": "القاضي المكلف بالتلخيص"
+    },
+    "Items": {
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": [
+        { "ID": "000", "VALEUR": "غير محدد" },
+        { "ID": "001", "VALEUR": "في انتضار الملف الورقي" },
+        { "ID": "002", "VALEUR": "منشور" },
+        { "ID": "003", "VALEUR": "مفصول" }
+      ],
+      "CP_JS_ETAT_DOSSIER": [
+        { "ID": "001", "VALEUR": "في انتظار الملف الورقي " },
+        { "ID": "002", "VALEUR": "منشور بالطور الأول" },
+        { "ID": "003", "VALEUR": "منشور بطور تبادل التقارير" },
+        { "ID": "004", "VALEUR": "منشور بطور المرافعة" },
+        { "ID": "005", "VALEUR": "منشور بطور المفاوضة و التصريح بالحكم" },
+        { "ID": "006", "VALEUR": "مفصول بصدد التلخيص" },
+        { "ID": "007", "VALEUR": "مفصول بصدد الرقن" },
+        { "ID": "008", "VALEUR": "مفصول بصدد الامضاء" },
+        { "ID": "009", "VALEUR": "مفصول ملخص و ممضى" },
+        { "ID": "010", "VALEUR": "مفصول بالخزينة" },
+        { "ID": "011", "VALEUR": "مفصول بالقباضة المالية" },
+        { "ID": "012", "VALEUR": "مفصول لدى مصلحة الأحكام" },
+        { "ID": "013", "VALEUR": "اثر الجلسة" }
+      ]
+    },
+    "expansion-panels": {
+      "ep0101": "حالة الملف"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01030": {
+    "Fields": {
+      "CF_JS_FORMULE_BUREAU_AVOCAT": "مكتب المحامي",
+      "CF_JS_ID_DOSSIER": "رمز الملف",
+      "CF_JS_CATEGORIE_DOSSIER": "صنف الملف",
+      "CF_JS_FORMULE_AVOCAT": "صيغة المحامي",
+      "CF_JS_NOM_PRENOM_AVOCAT": "المحامي",
+      "CF_JS_SPECIALITE": "الاختصاص",
+      "CF_JS_DEGRE_AFFAIRE": "درجة القضية",
+      "CF_JS_TYPE_AFFAIRE": "نوع القضية",
+      "CF_JS_CATEGORIE_LITIGE": "صنف النزاع",
+      "CF_JS_TYPE_LITIGE": "موضوع النزاع",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_NUM_CONSIGNATION_TRIBUNAL": "عدد التضمين بالمحكمة",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الاولى التي عينتها المحكمة",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ROLE_AVOCAT": "صفة المحامي",
+      "CF_JS_FORMULE_AVOCAT01": "صيغة المحامي ",
+      "CF_JS_CLIENT": "النيابة عن",
+      "CF_JS_TIERS": "الموجه إليه",
+      "CF_JS_DATE_SIGNIFICATION": "التاريخ (عريضة / اعلام نيابة)",
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_FORMULE_HUSSIER_NOTAIRE": "صيغة  عدل التنفيذ",
+      "CF_JS_NUM_PV": "عدد الرقيم",
+      "CF_JS_TEXTE_DATE_CITATION": "تاريخ الاستدعاء بلسان القلم",
+      "CF_JS_DATE_CITATION": "تاريخ الاستدعاء",
+      "CF_JS_TEXTE_HEURE_CITATION": "ساعة الاستدعاء بلسان القلم",
+      "CF_JS_HEURE_CITATION": "ساعة الاستدعاء",
+      "CF_JS_CLIENT01": "الطالب",
+      "CF_JS_FORMULE_ALL_DEMANDEURS": "الصيغة",
+      "CF_JS_TIERS01": "الموجه إليه",
+      "CF_JS_RECEPTION_CITATION": "المآل",
+      "CF_JS_SUJET_CITATION": "موضوع الاستدعاء",
+      "CF_JS_DATE_ENREGISTREMENT_CITATION": "تاريخ التسجيل",
+      "CF_JS_FRAIS_CITATION_LETTRE": "معاليم الرقيم بلسان القلم",
+      "CF_JS_FRAIS_CITATION_CHIFFRE": "معاليم الرقيم بالأرقام",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة",
+      "CF_JS_AUDIENCE_PREMIERE_AVACAT": "تاريخ الجلسة الاولى التي عينها المحامي"
+    },
+
+    "expansion-panels": {
+      "ep0101": "الدفاع",
+      "ep0102": "معطيات عامة",
+      "ep0103": "الأطراف",
+      "ep0104": "موضوع الدعوى",
+      "ep0105": "الطلبات",
+      "ep01": "النيابة عن",
+      "ep02": "الضد"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01034": {
+    "Fields": {
+      "CP_JS_FORMULE_BUREAU_AVOCAT": "صيغة المحامي",
+      "CP_JS_TITRE_RAPPORT_AVOCAT": "عنوان التقرير",
+      "CP_JS_NUM_AFFAIRE": "عدد القضية",
+      "CP_JS_DATE_AUDIENCE": "تاريخ الجلسة",
+      "CP_JS_TRIBUNAL": "المحكمة",
+      "CP_JS_CLIENT": "النيابة عن",
+      "CP_JS_TIERS": "الضد",
+      "CP_JS_ADRESSEE_A": "الموجه إليه"
+    },
+    "expansion-panels": {
+      "ep0101": "تفاصيل تقرير",
+      "ep0102": "الدوافع",
+      "ep0103": "الطلبات"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01035": {
+    "Fields": {
+      "CF_JS_DATE_RAPPORT": "تاريخ التقرير",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة",
+      "CF_JS_TITRE_RAPPORT": "عنوان التقرير",
+      "CF_JS_CATEGORIE_DOSSIER": "صنف الملف",
+      "CF_JS_FORMULE_AVOCAT": "المحامي",
+      "CF_JS_SPECIALITE": "الاختصاص",
+      "CF_JS_DEGRE_AFFAIRE": "درجة القضية",
+      "CF_JS_TYPE_AFFAIRE": "نوع القضية",
+      "CF_JS_CATEGORIE_LITIGE": "صنف النزاع",
+      "CF_JS_TYPE_LITIGE": "موضوع النزاع",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_NUM_CONSIGNATION_TRIBUNAL": "عدد التضمين بالمحكمة",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الأولى",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ROLE_AVOCAT": "صفة المحامي",
+      "CF_JS_FORMULE_AVOCAT01": "صيغة المحامي ",
+      "CF_JS_CLIENT": "النيابة عن",
+      "CF_JS_TIERS": "الموجه إليه",
+      "CF_JS_DATE_SIGNIFICATION": "التاريخ (عريضة / اعلام نيابة)",
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_FORMULE_HUSSIER_NOTAIRE": "صيغة  عدل التنفيذ",
+      "CF_JS_NUM_PV": "عدد الرقيم",
+      "CF_JS_TEXTE_DATE_CITATION": "تاريخ الاستدعاء بلسان القلم",
+      "CF_JS_DATE_CITATION": "تاريخ الاستدعاء",
+      "CF_JS_TEXTE_HEURE_CITATION": "ساعة الاستدعاء بلسان القلم",
+      "CF_JS_HEURE_CITATION": "ساعة الاستدعاء",
+      "CF_JS_CLIENT01": "الطالب",
+      "CF_JS_FORMULE_ALL_DEMANDEURS": "الصيغة",
+      "CF_JS_TIERS01": "الموجه إليه",
+      "CF_JS_RECEPTION_CITATION": "المآل",
+      "CF_JS_SUJET_CITATION": "موضوع الاستدعاء",
+      "CF_JS_DATE_ENREGISTREMENT_CITATION": "تاريخ التسجيل",
+      "CF_JS_FRAIS_CITATION_LETTRE": "معاليم الرقيم بلسان القلم",
+      "CF_JS_FRAIS_CITATION_CHIFFRE": "معاليم الرقيم بالأرقام",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "معطيات عامة",
+      "ep0102": "الدفوعات",
+      "ep0103": "الطلبات",
+      "ep0104": "المؤيدات"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01036": {
+    "Fields": {
+      "CF_JS_CATEGORIE_DEMANDE": "صنف المطلب",
+      "CF_JS_DATE_DEMANDE": "تاريخ المطلب",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة",
+      "CF_JS_TITRE_DEMANDE": "عنوان المطلب",
+
+      "CF_JS_CATEGORIE_DOSSIER": "صنف الملف",
+      "CF_JS_FORMULE_AVOCAT": "المحامي",
+      "CF_JS_SPECIALITE": "الاختصاص",
+      "CF_JS_DEGRE_AFFAIRE": "درجة القضية",
+      "CF_JS_TYPE_AFFAIRE": "نوع القضية",
+      "CF_JS_CATEGORIE_LITIGE": "صنف النزاع",
+      "CF_JS_TYPE_LITIGE": "موضوع النزاع",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_NUM_CONSIGNATION_TRIBUNAL": "عدد التضمين بالمحكمة",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الأولى",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ROLE_AVOCAT": "صفة المحامي",
+      "CF_JS_FORMULE_AVOCAT01": "صيغة المحامي ",
+      "CF_JS_CLIENT": "النيابة عن",
+      "CF_JS_TIERS": "الموجه إليه",
+      "CF_JS_DATE_SIGNIFICATION": "التاريخ (عريضة / اعلام نيابة)",
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_FORMULE_HUSSIER_NOTAIRE": "صيغة  عدل التنفيذ",
+      "CF_JS_NUM_PV": "عدد الرقيم",
+      "CF_JS_TEXTE_DATE_CITATION": "تاريخ الاستدعاء بلسان القلم",
+      "CF_JS_DATE_CITATION": "تاريخ الاستدعاء",
+      "CF_JS_TEXTE_HEURE_CITATION": "ساعة الاستدعاء بلسان القلم",
+      "CF_JS_HEURE_CITATION": "ساعة الاستدعاء",
+      "CF_JS_CLIENT01": "الطالب",
+      "CF_JS_FORMULE_ALL_DEMANDEURS": "الصيغة",
+      "CF_JS_TIERS01": "الموجه إليه",
+      "CF_JS_RECEPTION_CITATION": "المآل",
+      "CF_JS_SUJET_CITATION": "موضوع الاستدعاء",
+      "CF_JS_DATE_ENREGISTREMENT_CITATION": "تاريخ التسجيل",
+      "CF_JS_FRAIS_CITATION_LETTRE": "معاليم الرقيم بلسان القلم",
+      "CF_JS_FRAIS_CITATION_CHIFFRE": "معاليم الرقيم بالأرقام",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة"
+    },
+
+    "expansion-panels": {
+      "ep0101": "معطيات عامة",
+      "ep0102": "الدفوعات",
+      "ep0103": "الطلبات",
+      "ep0104": "المؤيدات"
+    },
+    "Items": {
+      "CF_JS_CATEGORIE_DEMANDE_ITEMS": [
+        { "ID": "000", "VALEUR": " " },
+        { "ID": "001", "VALEUR": "مطلب تقديم جلسة" },
+        { "ID": "002", "VALEUR": "مطلب طرح قضية" },
+        { "ID": "003", "VALEUR": "مطلب إسترجاع مؤيدات" }
+      ]
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01037": {
+    "Fields": {
+      "CF_JS_CONSTITUTION_AVOCAT": "إعلام بقبول نيابة"
+    },
+    "expansion-panels": {
+      "ep0101": "إعلام بقبول نيابة"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01040": {
+    "Fields": {
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_NUM_BUREAU": "المكتب",
+      "CF_JS_DECISION": "القرار",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_JUGE_PRESIDENT": "الرئيس",
+      "CF_JS_MEMBRE_JUGE": "الأعضاء",
+      "CF_JS_GREFFIER": "الكاتب",
+      "CF_JS_DATE_PV_AUDIENCE": "جلسة يوم",
+      "CF_JS_CAUSE_REPORT_GREFFIER": "المٱل",
+      "CF_JS_CAUSE_REPORT_JUGE": "اثر الجلسة",
+      "CF_JS_MONTANT_AVANCE": "مقدار التسبقة",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_PV_AUDIENCE": "الصيغة",
+      "CF_JS_CHAMBRE": "الدائرة",
+      "CF_JS_PHASE": "الطور  ",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة المقبلة",
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": "الحالة الرئيسية للملف",
+      "CF_JS_TRAVAUX_PREPARATOIRES": "الصنف",
+      "CF_JS_TRAVAUX_DATE_DEBUT": "التاريخ",
+      "CF_JS_DATE_AUDIENCE_BUREAU": "التاريخ",
+      "CF_JS_HEURE_AUDIENCE_BUREAU": "الساعة",
+      "CF_JS_DETAILS_AUDIENCE_BUREAU": "التفاصيل",
+      "CF_JS_DATE_DEPLACEMENT": "التاريخ",
+      "CF_JS_LIEUX": "المكان",
+      "CF_JS_DETAILS_DEPLACEMENT": "التفاصيل",
+      "CF_JS_BUREAU": "المكتب"
+    },
+
+    "expansion-panels": {
+      "ep0101": "تركيبة الهيئة",
+
+      "ep0102": "محضر الجلسة",
+      "ep0103": "القرار",
+      "exp0101": "مامورية اختبار",
+      "exp0102": "مامورية أداء يمين",
+      "exp0103": "  أعمال تحضيرية",
+      "exp0104": " تحريرات مكتبية",
+      "exp0105": " توجهات عينية"
+    },
+    "Items": {
+      "CF_JS_TRAVAUX_PREPARATOIRES": [
+        { "ID": "003", "VALEUR": "تحريرات مكتبية" },
+        { "ID": "004", "VALEUR": "توجهات عينية" }
+      ],
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": [
+        { "ID": "000", "VALEUR": "غير محدد" },
+        { "ID": "001", "VALEUR": "في انتضار الملف الورقي" },
+        { "ID": "002", "VALEUR": "منشور" },
+        { "ID": "003", "VALEUR": "مفصول" }
+      ],
+      "CF_JS_DECISION": [
+        {
+          "ID": "000",
+          "VALEUR": " تبادل التقارير في الأثناء إلكترونيا و عند الإقتضاء ورقيا "
+        },
+        { "ID": "001", "VALEUR": "تأخير الجلسة " },
+        { "ID": "002", "VALEUR": "تأخير الجلسة على حالتها" },
+        { "ID": "003", "VALEUR": "للطلب" }
+      ]
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01042": {
+    "Fields": {
+      "CF_JS_NOTES_AFFAIRE": "الملاحضات",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_Num_Mandat": "عدد المأمورية"
+    },
+    "Items": {
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": [
+        { "ID": "000", "VALEUR": "غير محدد" },
+        { "ID": "001", "VALEUR": "في انتضار الملف الورقي" },
+        { "ID": "002", "VALEUR": "منشور" },
+        { "ID": "003", "VALEUR": "مفصول" }
+      ],
+      "CP_JS_ETAT_DOSSIER": [
+        { "ID": "001", "VALEUR": "في انتظار الملف الورقي " },
+        { "ID": "002", "VALEUR": "منشور بالطور الأول" },
+        { "ID": "003", "VALEUR": "منشور بطور تبادل التقارير" },
+        { "ID": "004", "VALEUR": "منشور بطور المرافعة" },
+        { "ID": "005", "VALEUR": "منشور بطور المفاوضة و التصريح بالحكم" },
+        { "ID": "006", "VALEUR": "مفصول بصدد التلخيص" },
+        { "ID": "007", "VALEUR": "مفصول بصدد الرقن" },
+        { "ID": "008", "VALEUR": "مفصول بصدد الامضاء" },
+        { "ID": "009", "VALEUR": "مفصول ملخص و ممضى" },
+        { "ID": "010", "VALEUR": "مفصول بالخزينة" },
+        { "ID": "011", "VALEUR": "مفصول بالقباضة المالية" },
+        { "ID": "012", "VALEUR": "مفصول لدى مصلحة الأحكام" },
+        { "ID": "013", "VALEUR": "اثر الجلسة" }
+      ]
+    },
+    "expansion-panels": {
+      "ep0101": "حالة الملف"
+    },
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01043": {
+    "Fields": {
+      "CF_JS_NUM_AFFAIRE": "عدد القضية"
+    }
+  },
+
+  "F01044": {
+    "Fields": {
+      "CF_JS_FILTRE": "حسب الموضوع",
+      "CF_JS_DATE_AUDIENCE": "تاريخ جلسة المرافعة ",
+      "CF_JS_JUGE_PRESIDENT": "رئيس الدائرة ",
+      "CF_JS_MEMBRE1": "عضو1",
+      "CF_JS_GENRE": "الأستاذ/الأستاذة",
+      "CF_JS_GREFFIER": "كاتب 1",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة",
+      "CF_JS_SALLE_AUDIENCE": "قاعة الجلسة",
+      "CF_JS_ADRESSE_PERSONNE": "المقر",
+      "CF_JS_TELE_FIXE_PERSONNE": "الهاتف القار",
+      "CF_JS_TELE_MOBILE_PERSONNE": "الهاتف الجوال",
+      "CF_JS_EMAIL_PERSONNE": "العنوان الالكتروني",
+      "CF_JS_MEMBRE2": "عضو2",
+      "CF_JS_AUTRE_INFORMATIONS": "معطيات أخرى",
+
+      "CF_JS_FORMULE_HUISSIER_NOTAIRE": "الصيغة"
+    }
+  },
+  "F01045": {
+    "Fields": {
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_DATE_MISSION_EXPERTISE": "تاريخ جلسة مأمورية الإختبار",
+      "CF_JS_DATE_DEMANDE_EXPERTISE": "تاريخ المأمورية",
+      "CF_JS_Num_Mandat_EXPERTISE": "عدد المأمورية"
+    },
+
+    "Headers": {
+      "HEADER_c01": "عدد رتبي",
+      "HEADER_c02": "الطور",
+      "HEADER_c03": "مسار الإنجاز",
+      "HEADER_c04": "تاريخ الإنجاز",
+      "HEADER_c05": "صفة المكلف بالإنجاز",
+      "HEADER_c06": "اسم المكلف بالإنجاز"
+    }
+  },
+  "F01046": {
+    "Fields": {
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة",
+      "CF_JS_ARRONDISSEMENT": "الدائرة",
+      "CF_JS_JUGE_PRESIDENT": "رئيس الدائرة ",
+      "CF_JS_MEMBRE1": "عضو1",
+      "CF_JS_GENRE": "الأستاذ/الأستاذة",
+      "CF_JS_GREFFIER": "كاتب 1",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة",
+      "CF_JS_SALLE_AUDIENCE": "قاعة الجلسة",
+      "CF_JS_ADRESSE_PERSONNE": "المقر",
+      "CF_JS_TELE_FIXE_PERSONNE": "الهاتف القار",
+      "CF_JS_TELE_MOBILE_PERSONNE": "الهاتف الجوال",
+      "CF_JS_EMAIL_PERSONNE": "العنوان الالكتروني",
+      "CF_JS_MEMBRE2": "عضو2",
+      "CF_JS_AUTRE_INFORMATIONS": "معطيات أخرى",
+      "CF_JS_FORMULE_HUISSIER_NOTAIRE": "الصيغة"
+    },
+    "expansion-panels": {
+      "ep0101": "تركيبة الهيئة",
+      "ep0102": "ملفات الطور الأول",
+      "ep0103": "ملفات طور التقارير",
+      "ep0104": "ملفات طور المرافعة"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01047": {
+    "Fields": {
+      "CF_JS_DATE_MANDAT": "تاريخ المأمورية",
+      "CF_JS_Rapport": "التقرير",
+      "CF_JS_RECU_RECUP_MISSION": "وصل تسلم المأمورية",
+      "CF_JS_DATE_RECUP_MISSION": "تاريخ تسلم المأمورية",
+      "CF_JS_Num_Mandat": "عدد المأمورية",
+      "CF_EXPERT": "الخبير الذي تسلم المأمورية",
+      "CF_JS_DATE_DEMANDE_EXPERTISE": "تاريخ المأمورية",
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_MONTANT_AVANCE": "مقدار التسبقة",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_Date_Retrait_Rapport": "تاريخ تسليم التقرير",
+      "CF_JS_RESUME_Rapport": "خلاصة التقرير",
+      "CF_JS_FORMULE_BUREAU_AVOCAT": "صيغة المحام",
+      "CF_JS_ID_DOSSIER": "رمز الملف",
+      "CF_JS_CATEGORIE_DOSSIER": "صنف الملف",
+      "CF_JS_FORMULE_AVOCAT": "صيغة المحامي",
+      "CF_JS_SPECIALITE": "الاختصاص",
+      "CF_JS_DEGRE_AFFAIRE": "درجة القضية",
+      "CF_JS_TYPE_AFFAIRE": "نوع القضية",
+      "CF_JS_CATEGORIE_LITIGE": "صنف النزاع",
+      "CF_JS_TYPE_LITIGE": "موضوع النزاع",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_CHAMBRE": "الدائرة ",
+      "CF_JS_DATE_DEPOT_REQUETE": "تاريخ ايداع عريضة الدعوى",
+      "CF_JS_NUM_CONSIGNATION_TRIBUNAL": "عدد التضمين بالمحكمة",
+      "CF_JS_AUDIENCE_PREMIERE": "تاريخ الجلسة الأولى",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_ROLE_AVOCAT": "صفة المحامي",
+      "CF_JS_FORMULE_AVOCAT01": "صيغة المحامي ",
+      "CF_JS_CLIENT": "النيابة عن",
+      "CF_JS_TIERS": "الموجه إليه",
+      "CF_JS_DATE_SIGNIFICATION": "التاريخ (عريضة / اعلام نيابة)",
+      "CF_JS_ID_HUISSIER_NOTAIRE": "رمز عدل التنفيذ",
+      "CF_JS_FORMULE_HUSSIER_NOTAIRE": "صيغة  عدل التنفيذ",
+      "CF_JS_NUM_PV": "عدد الرقيم",
+      "CF_JS_TEXTE_DATE_CITATION": "تاريخ الاستدعاء بلسان القلم",
+      "CF_JS_DATE_CITATION": "تاريخ الاستدعاء",
+      "CF_JS_TEXTE_HEURE_CITATION": "ساعة الاستدعاء بلسان القلم",
+      "CF_JS_HEURE_CITATION": "ساعة الاستدعاء",
+      "CF_JS_CLIENT01": "الطالب",
+      "CF_JS_FORMULE_ALL_DEMANDEURS": "الصيغة",
+      "CF_JS_TIERS01": "الموجه إليه",
+      "CF_JS_RECEPTION_CITATION": "المآل",
+      "CF_JS_SUJET_CITATION": "موضوع الاستدعاء",
+      "CF_JS_DATE_ENREGISTREMENT_CITATION": "تاريخ التسجيل",
+      "CF_JS_FRAIS_CITATION_LETTRE": "معاليم الرقيم بلسان القلم",
+      "CF_JS_FRAIS_CITATION_CHIFFRE": "معاليم الرقيم بالأرقام",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة",
+      "CF_JS_CONTEXTE_EXPERTISE": "موضوع المأمورية"
+    },
+
+    "expansion-panels": {
+      "ep0101": "انشاء مأمورية",
+      "ep0102": "التسليم و التسبقة",
+      "ep0103": "التعديل",
+      "ep0104": "تقرير الاختبار",
+      "ep0105": "",
+
+      "ep01": "معطيات عامة",
+      "ep02": "العدل",
+      "ep03": "الاعمال المطلوبة",
+      "ep04": "تسليم المؤمورية",
+      "ep05": "وصل التسبقة"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01048": {
+    "Fields": {
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_DATE_MISSION_EXPERTISE": "تاريخ جلسة مأمورية أداء يمين",
+      "CF_JS_DATE_DEMANDE_EXPERTISE": "تاريخ المأمورية",
+      "CF_JS_Num_Mandat_EXPERTISE": "عدد المأمورية"
+    },
+
+    "Headers": {
+      "HEADER_c01": "عدد رتبي",
+      "HEADER_c02": "الطور",
+      "HEADER_c03": "مسار الإنجاز",
+      "HEADER_c04": "تاريخ الإنجاز",
+      "HEADER_c05": "صفة المكلف بالإنجاز",
+      "HEADER_c06": "اسم المكلف بالإنجاز"
+    }
+  },
+  "F01049": {
+    "Fields": {
+      "CF_JS_DATE": "التاريخ",
+      "CF_JS_LIEUX": "المكان",
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_DETAILS": "التفاصيل"
+    },
+
+    "expansion-panels": {
+      "ep0101": "انشاء مأمورية",
+      "ep0102": "التسليم و التسبقة",
+      "ep0103": "التعديل",
+      "ep0104": "تقرير الاختبار",
+      "ep0105": "",
+
+      "ep01": "معطيات عامة",
+      "ep02": "الخبير",
+      "ep03": "الاعمال المطلوبة",
+      "ep04": "تسليم المؤمورية",
+      "ep05": "وصل التسبقة"
+    },
+    "FILES_CATEGORIES_ITEMS": [
+      "البروتوكول",
+      "الاتفاق",
+      "الإتفاقية",
+      "رسالة السحب",
+      "إتفاق الهبة",
+      "إتفاقية الشراكة",
+      "وثائق أخرى"
+    ]
+  },
+  "F01050": {
+    "Fields": {
+      "CF_JS_TERMINE": "تم",
+      "CF_JS_LIEUX": "المكان",
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_RECAP": "خلاصة المحضر"
+    },
+
+    "expansion-panels": {
+      "ep0101": "انشاء مأمورية",
+      "ep0102": "التسليم و التسبقة",
+      "ep0103": "التعديل",
+      "ep0104": "تقرير الاختبار",
+      "ep0105": "",
+
+      "ep01": "معطيات عامة",
+      "ep02": "الخبير",
+      "ep03": "الاعمال المطلوبة",
+      "ep04": "تسليم المؤمورية",
+      "ep05": "وصل التسبقة"
+    },
+    "RECAP_ITEMS": ["نعم", "لا"]
+  },
+  "F01051": {
+    "Fields": {
+      "CF_JS_BUREAU": "المكتب",
+      "CF_JS_LIEUX": "المكان",
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_RECAP": "خلاصة المحضر"
+    },
+
+    "expansion-panels": {
+      "ep0101": "انشاء مأمورية",
+      "ep0102": "التسليم و التسبقة",
+      "ep0103": "التعديل",
+      "ep0104": "تقرير الاختبار",
+      "ep0105": "",
+
+      "ep01": "معطيات عامة",
+      "ep02": "الخبير",
+      "ep03": "الاعمال المطلوبة",
+      "ep04": "تسليم المؤمورية",
+      "ep05": "وصل التسبقة"
+    },
+    "RECAP_ITEMS": ["نعم", "لا"]
+  },
+  "F01052": {
+    "Fields": {
+      "CF_JS_TERMINE": "تمت",
+      "CF_JS_LIEUX": "المكان",
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_RECAP": "خلاصة المحضر"
+    },
+
+    "expansion-panels": {
+      "ep0101": "انشاء مأمورية",
+      "ep0102": "التسليم و التسبقة",
+      "ep0103": "التعديل",
+      "ep0104": "تقرير الاختبار",
+      "ep0105": "",
+
+      "ep01": "معطيات عامة",
+      "ep02": "الخبير",
+      "ep03": "الاعمال المطلوبة",
+      "ep04": "تسليم المؤمورية",
+      "ep05": "وصل التسبقة"
+    },
+    "RECAP_ITEMS": ["نعم", "لا"]
+  },
+  "F01053": {
+    "Fields": {
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_NUM_BUREAU": "المكتب",
+      "CF_JS_DECISION": "القرار",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_JUGE_PRESIDENT": "الرئيس",
+      "CF_JS_MEMBRE_JUGE": "الأعضاء",
+      "CF_JS_GREFFIER": "الكاتب",
+      "CF_JS_DATE_PV_AUDIENCE": "جلسة يوم",
+      "CF_JS_CAUSE_REPORT_GREFFIER": "المٱل",
+      "CF_JS_CAUSE_OUVERTURE_DELIBERATION": "السبب",
+      "CF_JS_MONTANT_AVANCE": "مقدار التسبقة",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_PV_AUDIENCE": "الصيغة",
+      "CF_JS_CHAMBRE": "الدائرة",
+      "CF_JS_PHASE": "الطور  ",
+      "CF_JS_NATURE_JUGEMENT": "طبيعة الحكم",
+      "CP_JS_TEXTE_JUFEMENT": "الحكم",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة المقبلة",
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": "الحالة الرئيسية للملف",
+      "CF_JS_TRAVAUX_PREPARATOIRES": "الصنف",
+      "CF_JS_TRAVAUX_DATE_DEBUT": "التاريخ",
+      "CF_JS_DATE_AUDIENCE_BUREAU": "التاريخ",
+      "CF_JS_HEURE_AUDIENCE_BUREAU": "الساعة",
+      "CF_JS_DETAILS_AUDIENCE_BUREAU": "التفاصيل",
+      "CF_JS_DATE_DEPLACEMENT": "التاريخ",
+      "CF_JS_LIEUX": "المكان",
+      "CF_JS_DETAILS_DEPLACEMENT": "التفاصيل",
+      "CF_JS_BUREAU": "المكتب"
+    },
+
+    "expansion-panels": {
+      "ep0101": "تركيبة الهيئة",
+
+      "ep0102": "محضر الجلسة",
+      "ep0103": "القرار",
+      "exp0101": "مامورية اختبار",
+      "exp0102": "مامورية أداء يمين",
+      "exp0103": "  أعمال تحضيرية",
+      "exp0104": " تحريرات مكتبية",
+      "exp0105": " توجهات عينية"
+    },
+    "Items": {},
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F01054": {
+    "Fields": {
+      "CF_JS_JUGE_RAPPORTEUR": "القاضي المقرر",
+      "CF_JS_NUM_BUREAU": "المكتب",
+      "CF_JS_DECISION": "القرار",
+      "CF_JS_TRIBUNAL": "المحكمة",
+      "CF_JS_NUM_AFFAIRE": "عدد القضية",
+      "CF_JS_JUGE_PRESIDENT": "الرئيس",
+      "CF_JS_MEMBRE_JUGE": "الأعضاء",
+      "CF_JS_GREFFIER": "الكاتب",
+      "CF_JS_DATE_PV_AUDIENCE": "جلسة يوم",
+      "CF_JS_CAUSE_REPORT_GREFFIER": "المٱل",
+      "CF_JS_CAUSE_OUVERTURE_DELIBERATION": "السبب",
+      "CF_JS_MONTANT_AVANCE": "مقدار التسبقة",
+      "CF_JS_MONTANT_AVANCE_LETTRE": "مقدار التسبقة بلسان القلم",
+      "CF_JS_PV_AUDIENCE": "الصيغة",
+      "CF_JS_CHAMBRE": "الدائرة",
+      "CF_JS_PHASE": "الطور  ",
+      "CF_JS_NATURE_JUGEMENT": "طبيعة الحكم",
+      "CP_JS_TEXTE_JUFEMENT": "الحكم",
+      "CF_JS_DATE_AUDIENCE": "تاريخ الجلسة المقبلة",
+      "CF_JS_ETAT_PRINCIPAL_DOSSIER": "الحالة الرئيسية للملف",
+      "CF_JS_TRAVAUX_PREPARATOIRES": "الصنف",
+      "CF_JS_TRAVAUX_DATE_DEBUT": "التاريخ",
+      "CF_JS_DATE_AUDIENCE_BUREAU": "التاريخ",
+      "CF_JS_HEURE_AUDIENCE_BUREAU": "الساعة",
+      "CF_JS_DETAILS_AUDIENCE_BUREAU": "التفاصيل",
+      "CF_JS_DATE_DEPLACEMENT": "التاريخ",
+      "CF_JS_LIEUX": "المكان",
+      "CF_JS_DETAILS_DEPLACEMENT": "التفاصيل",
+      "CF_JS_BUREAU": "المكتب"
+    },
+
+    "expansion-panels": {},
+    "Items": {},
+    "FILES_CATEGORIES_ITEMS": []
+  },
+  "F02001": {
+    "title": "توزيع العمل بالدوائر",
+    "Fields": {
+      "CF_JS_ARRONDISSEMENT": "الدائرة",
+      "CF_JS_ACTIVITE_JUSTICIAIRE": "نسبة النشاط",
+      "CF_JS_ROLE": "الدور",
+      "CF_JS_NO_PRENOM": "الاسم و اللقب",
+      "CF_JS_DATE_EFFECTIVE": " تاريخ السريان",
+      "Items": {
+        "CF_JS_ARRONDISSEMENT_ITEMS": [
+          { "ID": "000", "VALEUR": "عضو" },
+          { "ID": "001", "VALEUR": "رئيس الدائرة" },
+          { "ID": "002", "VALEUR": "كاتب" },
+          { "ID": "003", "VALEUR": "ممثل النيابة" },
+          { "ID": "004", "VALEUR": "مستشار طفولة" },
+          { "ID": "005", "VALEUR": "مستشار طفولة" },
+          { "ID": "006", "VALEUR": "مستشار" }
+        ],
+        "CF_JS_ROLE_ITEMS": [
+          { "ID": "000", "VALEUR": "عضو" },
+          { "ID": "001", "VALEUR": "رئيس الدائرة" },
+          { "ID": "002", "VALEUR": "كاتب" },
+          { "ID": "003", "VALEUR": "ممثل النيابة" },
+          { "ID": "004", "VALEUR": "مستشار طفولة" },
+          { "ID": "005", "VALEUR": "مستشار طفولة" },
+          { "ID": "006", "VALEUR": "مستشار" }
+        ],
+        "CF_JS_POURCENTAGE_ITEMS": [
+          { "ID": "000", "VALEUR": "10%" },
+          { "ID": "001", "VALEUR": "20%" },
+          { "ID": "002", "VALEUR": "30%" },
+          { "ID": "003", "VALEUR": "40%" },
+          { "ID": "004", "VALEUR": "50%" },
+          { "ID": "005", "VALEUR": "60%" },
+          { "ID": "006", "VALEUR": "70%" },
+          { "ID": "007", "VALEUR": "80%" },
+          { "ID": "008", "VALEUR": "90%" },
+          { "ID": "009", "VALEUR": "100%" }
+        ]
+      }
+    }
+  },
+  "F02002": {
+    "title": "الدوائر في المحكمة",
+    "Fields": {
+      "CF_JS_ARRONDISSEMENT": "الدائرة",
+      "CF_JS_CLASSE_ARRONDISSEMENT": "صنف الدائرة",
+      "CF_JS_ACTIVITE_JUSTICIAIRE": "النشاط القضائي ",
+      "CF_JS_JOUR_AUDIENCE": "يوم الجلسة",
+      "CF_JS_HEURE_AUDIENCE": "ساعة الجلسة",
+      "CF_JS_SALLE_AUDIENCE": "قاعة الجلسة",
+      "CF_JS_PAS_ACTIVE": "غير مفعل ",
+      "CF_JS_ROLE": "الدور",
+      "CF_JS_NO_PRENOM": "الاسم و اللقب",
+      "CF_JS_DATE_EFFECTIVE": " تاريخ السريان",
+      "Items": {
+        "CF_JS_ARRONDISSEMENT_ITEMS": [
+          { "ID": "000", "VALEUR": "عضو" },
+          { "ID": "001", "VALEUR": "رئيس الدائرة" },
+          { "ID": "002", "VALEUR": "كاتب" },
+          { "ID": "003", "VALEUR": "ممثل النيابة" },
+          { "ID": "002", "VALEUR": "مستشار طفولة" },
+          { "ID": "002", "VALEUR": "مستشار طفولة" },
+          { "ID": "002", "VALEUR": "مستشار" }
+        ],
+        "CF_JS_CLASSE_ARRONDISSEMENT_ITEMS": [
+          { "ID": "000", "VALEUR": "دائرة القاضي المنفرد" },
+          { "ID": "001", "VALEUR": "دائرة ثلاثية " },
+          { "ID": "002", "VALEUR": "دائرة خماسية" },
+          { "ID": "003", "VALEUR": "دائرة الأطفال" },
+          { "ID": "003", "VALEUR": "دائرة مدنية" },
+          { "ID": "004", "VALEUR": "دائرة تجارية" }
+        ],
+        "CF_JS_ACTIVITE_JUSTICIAIRE_ITEMS": [
+          { "ID": "000", "VALEUR": "المدني" },
+          { "ID": "001", "VALEUR": "اكساء الصبغة التنفيذية" },
+          { "ID": "002", "VALEUR": "الاستعجالي" },
+          { "ID": "003", "VALEUR": "الضمان الاجتماعي" },
+          { "ID": "004", "VALEUR": "ضمان اجتماعي" },
+          { "ID": "005", "VALEUR": "الشغل" },
+          { "ID": "006", "VALEUR": "الإعانة العدليّة" },
+          { "ID": "007", "VALEUR": "التقاديم" },
+          { "ID": "008", "VALEUR": "استئناف مدني" },
+          { "ID": "009", "VALEUR": "الإستحقاق" },
+          { "ID": "010", "VALEUR": "البيوعات العقارية" },
+          { "ID": "012", "VALEUR": "القضاء المنفرد" },
+          { "ID": "013", "VALEUR": "الاستحقاق" },
+          { "ID": "014", "VALEUR": "المدني" },
+          { "ID": "015", "VALEUR": "الاستعجالي" },
+          { "ID": "016", "VALEUR": "الشخصي" },
+          { "ID": "017", "VALEUR": "جباية" },
+          { "ID": "018", "VALEUR": "تقاديم" },
+          { "ID": "019", "VALEUR": "ضمان الاجتماعي" },
+          { "ID": "020", "VALEUR": "القضاء المنفرد " },
+          { "ID": "021", "VALEUR": "التجاري" },
+          { "ID": "022", "VALEUR": "الشخصي" },
+          { "ID": "023", "VALEUR": "بطاقة الزام" },
+          { "ID": "024", "VALEUR": "شغل صلحي" },
+          { "ID": "025", "VALEUR": "اعتراض على القضاء المنفرد" },
+          { "ID": "026", "VALEUR": "ملك تجاري" },
+          { "ID": "027", "VALEUR": "استئناف مدني" },
+          { "ID": "028", "VALEUR": "حالة مدنية" },
+          { "ID": "029", "VALEUR": "بيوعات عقارية" },
+          { "ID": "030", "VALEUR": "اعتراض جناحي منفرد" },
+          { "ID": "031", "VALEUR": "الحالة المدنية المجلسية" },
+          { "ID": "032", "VALEUR": "الاوامر بالدفع" },
+          { "ID": "033", "VALEUR": "الاذون على العرائض" }
+        ],
+        "CF_JS_ACTIF_STATE": [
+          { "ID": "000", "VALEUR": "مفعل" },
+          { "ID": "001", "VALEUR": "غير مفعل" }
+        ]
+      }
+    }
+  },
+  "F02003": {
+    "title": "تصنيف الدوائر",
+    "Fields": {},
+    "Items": {
+      "CF_JS_CLASSE_INSTANCE_ITEMS": [
+        { "ID": "000", "VALEUR": "القاضي المنفرد" },
+        { "ID": "001", "VALEUR": "هيئة ثلاثية" },
+        { "ID": "002", "VALEUR": "هيئة خماسية" },
+        { "ID": "003", "VALEUR": "محكمة الأطفال" },
+        { "ID": "004", "VALEUR": "دائرة مدنية" },
+        { "ID": "005", "VALEUR": "دائرة تجارية" }
+      ]
+    }
+  },
+  "T01001": {
+    "expansion-panels": {
+      "ep01": "متابعة الأحداث"
+    },
+    "RECAP_ITEMS": ["نعم", "لا"]
+  },
+  "NeoBar": {
+    "header": "إدارة منظومة JShare",
+
+    "btn_quitter": "الخروج من وضع الإدارة"
+  },
+  "NeoBar_Avocat": {
+    "header": "إدارة منظومة JShare Avocat",
+
+    "btn_quitter": "الخروج من وضع الإدارة"
+  }
+}
