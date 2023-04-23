@@ -31,12 +31,15 @@ import NeoSearchField from "./components/NeoSearchField.vue";
 import NeoSearchFieldNew from "./components/NeoSearchFieldNew.vue";
 import NeoSearchFieldF01047 from "./components/NeoSearchFieldF01047.vue";
 import NeoUpload from "./components/NeoUpload.vue";
-import Stepper from "./components/Stepper.vue";
+import NouvCollab from "./components/NouvCollab.vue";
 import CKEditor from "@ckeditor/ckeditor5-vue2";
+import CrudCollab from "./components/CrudCollab.vue";
+
 
 Vue.use(CKEditor);
 Vue.use(ElementUI);
-Vue.component("Stepper", Stepper);
+Vue.component("CrudCollab", CrudCollab);
+Vue.component("NouvCollab", NouvCollab);
 Vue.component("NeoSelect", NeoSelect);
 Vue.component("NeoComboBox", NeoComboBox);
 Vue.component("NeoDatePicker", NeoDatePicker);

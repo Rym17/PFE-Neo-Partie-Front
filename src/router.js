@@ -4,6 +4,7 @@ import Router from "vue-router";
 import F01001 from "./vues/F01001.vue";
 import CollaborateurVue from "./vues/CollaborateurVue.vue";
 import EntretienVue from "./vues/EntretienVue.vue";
+import Test from "./vues/Test.vue";
 
 Vue.use(Router);
 export default new Router({
@@ -26,6 +27,11 @@ export default new Router({
           path: "F01001",
           name: "F01001",
           component: F01001,
+        },
+        {
+          path: "test",
+          name: "test",
+          component: Test,
         },
         
         {
