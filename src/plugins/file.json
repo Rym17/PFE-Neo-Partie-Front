@@ -1,0 +1,124 @@
+{
+  "User": {
+    "data": {
+      "id": "3c3bb711053e0347ad66ac5ee63e80bb",
+      "displayName": "AdminGED",
+      "login": "AdminGED",
+      "cn": "AdminGED",
+      "mail": "moulahi@neoledge.com",
+      "instanceName": "GED",
+      "preferences": null,
+      "preferredLanguage": "fr-FR",
+      "policies": {
+        "isAllowedToChangePortal": true,
+        "hasDefaultLoginToModernPortal": false,
+        "canAccessToGrc": false,
+        "canAccessToGeneralAdministration": true,
+        "canAccessToContacts": true,
+        "canAccessToWorkflowAdministration": true,
+        "canAccessToSeparatorPrint": false,
+        "canAccessToMaintenance": true,
+        "canAccessToDocumentGeneration": false,
+        "canManageConfidentialFile": false,
+        "dashboardEditionPolicy": true,
+        "canAccessToDistribute": false,
+        "canShowMailHistory": true,
+        "canShowHistory": true,
+        "canShowPreparationProcess": false,
+        "canManageWorkspaces": true,
+        "deleteTaskParameter": 1,
+        "updateTaskParameter": 1,
+        "canPermanentlyDeleteFiles": true,
+        "forceFormAuthentication": true,
+        "isAllowedToModifyAvatar": true,
+        "isAllowedToRequestTask": true,
+        "isAllowedToReserveDocument": true,
+        "isAllowedToPrintLabel": true,
+        "isAllowedToPrintDocument": false,
+        "isAllowedToLinkDocumentCreationWidgetToPigeonhole": true,
+        "isAllowedToRequestTaskAsService": false,
+        "isAllowedToAccessActivities": false,
+        "isAllowedToManageTasks": false,
+        "printBarCodeDateType": 0
+      },
+      "eliseUrl": "https://integration.elisecloud.tn/elise",
+      "baseUrl": "https://integration.elisecloud.tn",
+      "documentationUrl": "https://integration.elisecloud.tn/elise/docs/userguide/{locale}/default.htm",
+      "isCf4InDebugMode": false,
+      "licenses": [
+        {
+          "license": {
+            "application": "ELISE",
+            "instance": "ged",
+            "availableLicenses": 200,
+            "usedLicenses": 5,
+            "description": "Licences nommées pour l'application \"Elise\""
+          },
+          "isActive": true
+        }
+      ],
+      "isAdministrator": true,
+      "intranetAuthenticationMode": "FORM",
+      "services": [
+        {
+          "id": "LEXICON_00000000",
+          "isDefault": true,
+          "grade": 0,
+          "initials": "",
+          "identificationPath": "",
+          "isOrganizationUnit": false,
+          "uid": "LEXICON_00000000",
+          "label": "GED",
+          "type": 1,
+          "email": null,
+          "isExternal": false,
+          "delegationId": null,
+          "isUnknown": false,
+          "absenceStartDate": null,
+          "absenceEndDate": null
+        }
+      ],
+      "feature": {
+        "takeChargeOf": true,
+        "markAsSent": true,
+        "allTaskAreValidationStep": true,
+        "newTaskRequest": true,
+        "isProcessingWorkflowEnabledForOutMails": false,
+        "taskInProgress": true,
+        "diffusion": false,
+        "interEntitySecureMessage": false,
+        "userDocumentTemplate": true,
+        "elisePrintLabel": false,
+        "otherDiffusion": false
+      },
+      "entityId": null,
+      "rootServiceId": "LEXICON_00000000"
+    }
+  },
+  "Application": "P01",
+  "Form": "F01001",
+  "Notice": {
+    "courriers_id": "",
+    "chrono": "",
+    "reference": "",
+    "Lang": "",
+    "data": {
+      "CP_OTP_SOCIETE": ""
+    },
+    "fields": {
+      "SP_CTX_PRET_TYPE_AR": ""
+    },
+    "Attachements": [],
+    "Creation": {
+      "uid": "",
+      "cn": "",
+      "datetime": null
+    },
+    "Modification": []
+  },
+  "Modele": {
+    "file": "",
+    "pdf": true,
+    "Linked": true
+  }
+}
