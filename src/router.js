@@ -5,8 +5,11 @@ import F01001 from "./vues/F01001.vue";
 import CollaborateurVue from "./vues/CollaborateurVue.vue";
 import EntretienVue from "./vues/EntretienVue.vue";
 import Test from "./vues/Test.vue";
-import Dragtest from "./vues/Dragtest.vue";  
-import Previewform from "./vues/Previewform.vue";  
+import Dragtest from "./vues/Dragtest.vue";   
+import Previewform from "./vues/Previewform.vue";    
+import Resultats from "./components/Resultats.vue";
+import Formulaire from "./components/Formulaire.vue";  
+
 Vue.use(Router);
 export default new Router({
   base: process.env.BASE_URL,
@@ -34,6 +37,18 @@ export default new Router({
           name: "test",
           component: Test,
         },
+        {
+          path: "Formulaire",
+          name: "Formulaire",
+          component:Formulaire,
+        },
+        {
+          path: "/resultats",
+          name: "Resultats",
+          component: Resultats,
+          props: true,
+        },
+        
         {
           path: "Previewform",
           name: "Previewform",

@@ -1,6 +1,6 @@
 <template>
 <v-app style="background-color: #E0E0E0 ; background-size: cover;" >
-    <div style="padding:20px">
+    <div style="padding:20px"  >
   
     <v-app-bar
       app
@@ -9,6 +9,7 @@
       color="primary"
       height="40px"
       style="height : 40px !important"
+      scroll-target="#scrolling-techniques-2"
     >
       <v-toolbar-title class="align-center d-flex">
         <img height="30px" src="../assets/logoelise2.png" />
@@ -90,8 +91,12 @@
         </v-img>
     </v-card>
 
-
-   
+  
+    <v-sheet
+      id="scrolling-techniques-2"
+      class="overflow-y-auto"
+      max-height="600"
+    >
     <!-- DEBUT CODE STEPPER -->
     <v-stepper
     v-model="e6" vertical >
@@ -108,21 +113,20 @@
         <v-stepper-content step="1">
           <v-card
             class="mb-12"
-            height="250px"
+            height="200px"
+            elevation="0"
+            
           
           >
            <br>
+          
            <v-row>
-              <v-col cols="12"
-                    sm="6"
-                    md="6">
+              <v-col class="col-offset" >
                  <neo-text-field label="Titre de la campagne" v-model="notice.data.TITRE">
                  </neo-text-field> 
                </v-col>
           
-                <v-col cols="12"
-                    sm="6"
-                    md="6">
+                <v-col cols="12" sm="6" md="6" class="col-offset">
                   <neo-select 
                      label="Catégorie de la campagne" 
                      v-model="notice.data.TYPE"
@@ -134,45 +138,23 @@
                </v-col>
            </v-row>
            <br> <br>
-           <v-row>
-             <v-col cols="12"
-                    sm="6"
-                    md="6">
-               <h2 style="font-family:'SegoeUI', Tahoma, Geneva, Verdana, sans-serif ; color:midnightblue ; font-size: medium ;"> Préparation du collaborateur </h2>
+          <v-divider> </v-divider>
+          <br>
+           <v-row > <br> 
+            <v-col class="col-offset"  >
                 <neo-date-picker label="La préparation doit etre faite avant le :" v-model="notice.data.ECHEANCE_COLLAB"> 
-
                 </neo-date-picker>
-              </v-col>
-             
-              <v-col cols="12"
-                    sm="6"
-                    md="6">
-                  <h2 style="font-family:'SegoeUI', Tahoma, Geneva, Verdana, sans-serif ; color:midnightblue ; font-size: medium ;">Réalisation de l'entretien par le responsable </h2>
-          
+            </v-col>
+           
+            <v-col cols="12" sm="6" md="6" class="col-offset">
                 <neo-date-picker label="La réalisation doit etre faite avant le :" v-model="notice.data.ECHEANCE_RESPONS"> 
-
                 </neo-date-picker>
-              </v-col>
-            <!--  <v-col cols="12"
-                    sm="6"
-                    md="4">
-                <v-radio-group
-              v-model="RADIO"
-              column
-                   >
+            </v-col>
+           </v-row> <br>
+           </v-card>
 
-                <neo-radio label="Collaborateur"> </neo-radio>
-                
-                <neo-radio label="Manager"> </neo-radio>
-               
-                <neo-radio label="Manager du manager"> </neo-radio>
-               
-                <neo-radio label="Responsable département"> </neo-radio>
-              
-                </v-radio-group>
-              </v-col> -->
-           </v-row>
-          </v-card>
+
+         
           <v-btn  class="mr-9"
         color="primary"
         @click="e6 = 2"
@@ -197,8 +179,9 @@
           <v-card
             class="mb-12"
             height="250px"
+            elevation="0"
           >
-         <h2 style="font-family:'SegoeUI', Tahoma, Geneva, Verdana, sans-serif ; color:midnightblue ; font-size: medium ;">Population à évaluer </h2>
+        
           <br>
           <v-row> 
         <v-col cols="12"
@@ -278,12 +261,20 @@
       Configuration du formulaire
     </v-stepper-step>
 
-    <v-stepper-content step="3">
+    <v-stepper-content step="3" >
       <v-card
         
         class="mb-12"
-        height="200px"
-      ></v-card>
+        height="500px"
+        elevation="0"
+        id="scrolling-techniques-2"
+        
+      >
+       
+      <Formulaire/>
+    
+    
+    </v-card>
       <v-btn
         color="primary"
         @click="e6 = 4"
@@ -295,29 +286,12 @@
       </v-btn>
     </v-stepper-content>
 
-    <v-stepper-step step="4">
-      View setup instructions
-    </v-stepper-step>
-    <v-stepper-content step="4">
-      <v-card
-        color="grey lighten-1"
-        class="mb-12"
-        height="200px"
-      ></v-card>
-      <v-btn
-        color="primary"
-        @click="e6 = 1"
-      >
-        Continue
-      </v-btn>
-      <v-btn text>
-        Cancel
-      </v-btn>
-    </v-stepper-content>
+    
 
 
  </v-form>
 </v-stepper>
+    </v-sheet>
  <br><br><br>
     
     
@@ -343,9 +317,11 @@ import { bus } from "../main";
 import lang from "../i18n.js";
 import NeoApi from "@/plugins/neoapi.js";
 import $ from "jquery";
+import Formulaire from "../components/Formulaire.vue";
+
 export default {
   name: "EntretienVue",
-  components: {  },
+  components: { Formulaire},
   data: () => {
     return {
       items: [
@@ -433,3 +409,10 @@ export default {
     }
 
 </script>
+<style>
+.col-offset {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+</style>

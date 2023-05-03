@@ -23,10 +23,12 @@
             </v-card-title>
             <v-card-text>
               <v-form ref="form">
+                
                 <v-card v-for="(item, index) in droppedItems" :key="index">
                   <v-card-title>
                      {{ item.label }}
                   </v-card-title>
+                 
                    
                     <v-btn-group class="form__actionlist">
 
@@ -41,28 +43,32 @@
                    
                   
                     <template v-if="item.type === 'text' || item.type === 'number' || item.type === 'password'">
-                      <NeoTextField :type="item.type" />
+                      <NeoTextField :type="item.type"  v-model="item.value" :label="item.label"/>
                     </template>
                     <template v-else-if="item.type === 'textarea'">
-                      <NeoTextArea />
+                      <NeoTextArea  v-model="item.value" :label="item.label"/>
                     </template>
                     <template v-else-if="item.type === 'select'">
-                      <NeoSelect :items="item.options" />
+                      <NeoSelect :items="item.options"  v-model="item.value" :label="item.label"/>
                     </template>
                     <template v-else-if="item.type === 'checkbox'">
-                      <NeoCheckBox  />
+                      <NeoCheckBox v-model="item.value" :label="item.label" />
                     </template>
                     <template v-else-if="item.type === 'radio'">
-                      <NeoRadio  :items="item.options" />
+                      <v-radio-group :items="item.options" v-model="item.value" :label="item.label"/>
                     </template>
                     <template v-else-if="item.type === 'rating'">
-                      <v-rating :max="item.max" />
+                      <v-rating  v-model="item.value" :label="item.label" :max="item.max" :icon="item.icon" half-increments/>
                     </template>
                  
                 </v-card>
               </v-form>
             </v-card-text>
+            <v-card-actions>
+                    <v-btn color="primary" @click="goToFormFinal">Voir le formulaire final</v-btn>
+                  </v-card-actions>
           </v-card>
+          
         </v-col>
       </v-row>
     </v-container>
@@ -70,15 +76,17 @@
   
   <script>
 import NeoCheckBox from '../components/NeoCheckBox.vue';
-import NeoRadio from '../components/NeoRadio.vue';
 import NeoSelect from '../components/NeoSelect.vue';
 import NeoTextArea from '../components/NeoTextArea.vue';
 import NeoTextField from '../components/NeoTextField.vue';
 
   export default {
-    name: 'DragDrop',
+    name:'Formulaire.vue',
+    
     data() {
         return {
+           
+      
             formItems: [
                 { label: "Text Field", type: "text" },
                 { label: "Number Field", type: "number" },
@@ -100,10 +108,10 @@ import NeoTextField from '../components/NeoTextField.vue';
         },
         drop(event) {
             event.preventDefault();
-            const droppedItem = this.formItems[this.draggedItemIndex];
-            const copiedItem = Object.assign({}, droppedItem); // Create a copy of the dropped item
-            this.droppedItems.push(copiedItem); // Add the copied item to the dropped items array
-        },
+    const droppedItem = this.formItems[this.draggedItemIndex];
+    const copiedItem = Object.assign({}, droppedItem); // Create a copy of the dropped item
+    this.droppedItems.push(copiedItem); // Add the copied item to the dropped items array
+},
         removeItem(index) {
             this.droppedItems.splice(index, 1);
         },
@@ -113,13 +121,16 @@ import NeoTextField from '../components/NeoTextField.vue';
                 item.label = newLabel.trim();
             }
         },
-      
-       
+        goToFormFinal() {
+      // Naviguer vers la page de formulaire final en utilisant Vue Router
+      this.$router.push({ name: 'Resultats', props: { droppedItems: this.droppedItems }});
+    }
        
        
        
     },
-    components: { NeoTextField, NeoTextArea, NeoSelect, NeoCheckBox, NeoRadio }
+  
+    components: { NeoTextField, NeoTextArea, NeoSelect, NeoCheckBox }
 };
   </script>
   

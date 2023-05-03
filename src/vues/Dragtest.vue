@@ -81,10 +81,11 @@ import NeoTextArea from '../components/NeoTextArea.vue';
 import NeoTextField from '../components/NeoTextField.vue';
 
   export default {
+    
     name:'Dragtest.vue',
     data() {
         return {
-            formItems: [
+                formItems: [
                 { label: "Text Field", type: "text" },
                 { label: "Number Field", type: "number" },
                 { label: "Password Field", type: "password" },
