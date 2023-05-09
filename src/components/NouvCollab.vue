@@ -1,15 +1,15 @@
 <template>
 <v-dialog v-model="dialog" width="600" hide-overlay>
     <template v-slot:activator="{ on, attrs }">
-      <v-btn color="primary" v-bind="attrs" v-on="on">
+      <v-btn color="primary" v-bind="attrs" v-on="on" text>
         <v-icon
           medium-icon
-          color="white"
+          color="primary"
         > 
         mdi-account-plus
         </v-icon>
         
-         Ajouter nouveau  </v-btn>
+       </v-btn>
     </template>
 
     <v-card>
@@ -103,8 +103,8 @@
       </v-card-text>
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn color="green darken-2" text @click="saveNotice()"> Enregistrer </v-btn>
-              <v-btn color="blue darken-1" text @click="dialog = false"> Réinitialiser </v-btn>
+              <v-btn color="primary" text @click="saveNotice()"> Enregistrer </v-btn>
+              <v-btn color="grey" text @click="dialog = false"> Réinitialiser </v-btn>
             </v-card-actions>
     </v-card>
 

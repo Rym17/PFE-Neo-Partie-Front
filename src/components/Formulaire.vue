@@ -4,7 +4,7 @@
         <v-col cols="3">
           <v-card class="drag-list" height="100%">
             <v-card-title>
-              Form Items
+              Element du formulaire 
             </v-card-title>
             <v-card-text>
               <v-list>
@@ -19,7 +19,7 @@
         <v-col cols="9">
           <v-card class="dropzone" @dragover.prevent @drop="drop($event)" :style="{ width: dropzoneWidth + 'px' }" height="100%">
             <v-card-title>
-              Drop zone
+            
             </v-card-title>
             <v-card-text>
               <v-form ref="form">
@@ -64,9 +64,9 @@
                 </v-card>
               </v-form>
             </v-card-text>
-            <v-card-actions>
+           <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br>
                     <v-btn color="primary" @click="goToFormFinal">Voir le formulaire final</v-btn>
-                  </v-card-actions>
+                 
           </v-card>
           
         </v-col>

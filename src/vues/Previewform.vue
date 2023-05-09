@@ -51,41 +51,13 @@
          
         >
         
-        <v-divider></v-divider>
-        <br><br>
-        <v-list-item class="px-2">
-            <v-list-item-avatar>
-              <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
-            </v-list-item-avatar>
-    
-            <v-list-item-title> Rym Charni </v-list-item-title>
-          </v-list-item>
-    
        
-          <v-divider></v-divider>
-          <br>
-          <v-list dense>
-            <v-list-item
-              v-for="item in items"
-              :key="item.title"
-              link
-             
-            >
-              <v-list-item-icon>
-                <v-icon>{{ item.icon }}</v-icon>
-              </v-list-item-icon>
-    
-              <v-list-item-content>
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list>
         </v-navigation-drawer> 
-
+   
 <div class="scrollable-card" width="700" >
      <v-card width="700"    class="mx-auto my-12" color="white" height="auto">
       
-       <v-card-title>Mon formulaire</v-card-title>
+      <v-card-title  style="color:#165c77 ">Mon entretien trimestriel pour l'année 2023 </v-card-title>
        <v-card-text> 
         <v-form>
          
@@ -170,34 +142,62 @@
    <h2 style="color:black; font-size: medium ;"> <v-icon medium color="red"> mdi-bullseye-arrow </v-icon> 4. Points sur les objectifs fixés </h2>
          <br>
         <v-card width="cover" outlined > 
-            <v-col>
-                <v-progress-linear v-model="knowledge" height="25">
-                <strong>{{ Math.ceil(knowledge) }}%</strong>
-                </v-progress-linear>
-        <NeoTextField label="3.1 Formation(s) suivi(s) sur l'année écoulée" required placeholder="exprimez-vous ici !" ></NeoTextField> </v-col> <br>
-       <v-divider></v-divider> 
-         <v-col>
-        <NeoTextArea label="3.2 Avez-vous besoin d'une formation pour l'année à venir ? " required placeholder="exprimez-vous ici !"></NeoTextArea>  </v-col><br>
-        <v-divider></v-divider> 
-         <v-col>
-        <NeoTextArea label="3.3 Quelle formation pensez-vous pouvoir donner à vos collègues ? " required placeholder="exprimez-vous ici !"></NeoTextArea>  </v-col><br>
+          <v-col>  <h4 style="color:#165c77"> 4.1 Objectifs personnels </h4></v-col>
+          <v-col>
+          <v-list>
+          <v-list-item>
+     
+            {{ percentage }} %
+          <v-progress-linear :value="percentage" color="primary" height="10"></v-progress-linear>
+      
+          </v-list-item>
+          <v-list-item v-for="(option, index) in options" :key="index">
+           <v-checkbox v-model="option.checked" :label="option.label"></v-checkbox>
+          </v-list-item>
+   
+           </v-list>
+          </v-col>
+         <v-divider></v-divider> 
+          <v-col>
+        <NeoTextArea label="4.2 Vous pouvez laisser votre commentaire  " required placeholder="exprimez-vous ici !"></NeoTextArea>  </v-col><br>
+
         </v-card>
+        <br>
+   
+   <h2 style="color:black; font-size: medium ;">  <v-icon medium color="purple darken-2"> mdi-shield-check-outline </v-icon> 5. Evaluation globale   </h2>
+         <br>
+        <v-card width="cover" outlined > 
+          <br>
+         <v-row>
+          <v-col>
+          </v-col >
+            <v-rating v-model="rating" color="yellow darken-3" background-color="primary" empty-icon="$ratingFull"  half-increments hover large required></v-rating>
+          <v-col >      
+          </v-col>
+       </v-row> <br>
+       
+       
+         <v-col>
+        <NeoTextField label="Vous pouvez laisser votre commentaire " required placeholder="exprimez-vous ici !"></NeoTextField>  </v-col><br>
+        </v-card>
+
+    <br>
+
+
+
 
         <br>
     
+        <v-btn color="primary" type="submit">Publier Réponse</v-btn>
 
-
+        </v-form>
+        </v-card-text>
 
 
 
 
 
         
-       
-        <v-btn color="primary" type="submit">Envoyer</v-btn>
-
-        </v-form>
-        </v-card-text>
         
 
 
@@ -223,13 +223,29 @@ import NeoTextField from "../components/NeoTextField.vue";
     
     export default {
       name: "EntretienVue",
-      data: () => ({
+      data() {
+    return {
+     
       knowledge: 33,
-    }),
+      options: [
+        { label: 'Coordonner la mise à jour des documents de vente', checked: false },
+        { label: 'Site web à jour', checked: false },
+        { label: '5 premieres commandes passées', checked: false },
+       
+      ]
+    }},
       methods: {
     onScroll() {
       console.log('Défilement détecté')
     }
+  },
+  computed: {
+    percentage() {
+      const checkedCount = this.options.filter(option => option.checked).length;
+      return (checkedCount / this.options.length * 100).toFixed(2);
+    },
+   
+
   },
       components: { NeoTextField, NeoTextArea },
      
@@ -244,5 +260,8 @@ import NeoTextField from "../components/NeoTextField.vue";
 }
 .col-offset {
   margin-left: 12px;
+}
+.title{
+  text-align: center;
 }
 </style>

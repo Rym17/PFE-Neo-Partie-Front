@@ -51,35 +51,48 @@
      
     >
     
-    <v-divider></v-divider>
-    <br><br>
-    <v-list-item class="px-2">
-        <v-list-item-avatar>
-          <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
-        </v-list-item-avatar>
-
-        <v-list-item-title> Rym Charni </v-list-item-title>
-      </v-list-item>
-
+    
    
       <v-divider></v-divider>
-      <br>
+      <br> <br><br>
       <v-list dense>
         <v-list-item
           v-for="item in items"
           :key="item.title"
           link
-         
         >
-          <v-list-item-icon>
-            <v-icon>{{ item.icon }}</v-icon>
+          <v-list-item-icon >
+            <v-icon color="primary">{{ item.icon }}</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title>{{ item.title }} </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
+
+
+      <template v-slot:prepend>
+        <v-list-item two-line>
+         
+
+          <v-list-item-content>
+            <v-list-item-title><v-icon> mdi-gavel</v-icon> Administration RH</v-list-item-title>
+            <v-list-item-subtitle>Activé</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
+      </template>
+
+      <br><br><br><br><br><br><br><br><br><br>
+
+      <template >
+        <v-list-item >
+          <v-list-item-content>
+            <v-list-item-subtitle><v-icon > mdi-cog</v-icon> Parametres</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
+      </template>
+
     </v-navigation-drawer> 
 
     <v-card width="cover" >
@@ -178,11 +191,12 @@
     <v-stepper-content step="2">
           <v-card
             class="mb-12"
-            height="250px"
+            height="200px"
             elevation="0"
           >
         
           <br>
+          
           <v-row> 
         <v-col cols="12"
                     sm="6"
@@ -223,13 +237,13 @@
         </v-col>
        
       </v-row>
-      <br>
-       <v-row > 
+      <v-row > 
         <v-col style="margin-left: 20px;">
-        <neo-check-box label="Tous les collaborateurs"  v-model="TOUS">
+        <neo-check-box label="Tous les collaborateurs"  v-model="checked">
          </neo-check-box> 
        <br>
-       <v-alert
+       <v-alert 
+       v-if="checked"
       icon="mdi-shield-lock-outline"
       border="left"
       outlined
@@ -238,8 +252,10 @@
     >
       Tous les collaborateurs seront concernés par l'entretien
     </v-alert>
+   
          </v-col>
         </v-row>  
+       
     </v-card>
          <v-btn
             color="primary"
@@ -286,7 +302,34 @@
       </v-btn>
     </v-stepper-content>
 
+<!---------- LE CONTENU DE LA QUATRIEME ETAPE------------->
+<v-stepper-step step="4">
+      View setup instructions
+    </v-stepper-step>
+    <v-stepper-content step="4">
+      <v-card
+          class="mb-12"
+          height="200px"
+          elevation="0"
+      >
+      
     
+    </v-card>
+      <v-btn
+        color="primary"
+        @click="e6 = 1"
+      >
+        Continue
+      </v-btn>
+      <v-btn text>
+        Cancel
+      </v-btn>
+    </v-stepper-content>
+
+
+
+
+
 
 
  </v-form>
@@ -322,12 +365,18 @@ import Formulaire from "../components/Formulaire.vue";
 export default {
   name: "EntretienVue",
   components: { Formulaire},
+ 
   data: () => {
     return {
+      
+     
+      checked: false,
       items: [
-          { title: 'Home', icon: 'mdi-home-city' },
-          { title: 'My Account', icon: 'mdi-account' },
-          { title: 'Users', icon: 'mdi-account-group-outline' },
+          { title: 'Dashboard', icon: 'mdi-view-dashboard'},
+          { title: 'Mon compte', icon: 'mdi-account-box' },
+          { title: 'Utilisateurs', icon: 'mdi-account-group-outline' },
+          { title: 'Entretiens', icon: 'mdi-text-box-multiple-outline' },
+          { title: 'Objectifss', icon: 'mdi-bullseye-arrow ' },
         ],
 
 
@@ -372,7 +421,17 @@ export default {
       
       NOTIF: false,
     }},
+
     method:{
+      markAsRead() {
+      // Logique pour marquer la notification comme lue
+    },
+    deleteNotification() {
+      // Logique pour supprimer la notification
+    },
+      
+
+
         async GetUserLocal() {
       this.user = await NeoApi.getUserLocal();
       bus.$emit("user", this.user);
@@ -409,10 +468,17 @@ export default {
     }
 
 </script>
-<style>
+
+
+
+
+<style scoped>
+
+
 .col-offset {
   margin-left: 12px;
   margin-right: 12px;
 }
+
 
 </style>

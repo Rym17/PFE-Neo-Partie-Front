@@ -9,6 +9,7 @@
       color="primary"
       height="40px"
       style="height : 40px !important"
+      
     >
       <v-toolbar-title class="align-center d-flex">
         <img height="30px" src="../assets/logoelise2.png" />
@@ -46,64 +47,68 @@
       clipped
       app
       id="main-sidebar"
-      width="200"
+      width="240"
      
     >
     
-    <v-divider></v-divider>
-    <br><br>
-    <v-list-item class="px-2">
-        <v-list-item-avatar>
-          <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
-        </v-list-item-avatar>
-
-        <v-list-item-title> Rym Charni </v-list-item-title>
-      </v-list-item>
-
+    
    
       <v-divider></v-divider>
-      <br>
+      <br> <br><br>
       <v-list dense>
         <v-list-item
           v-for="item in items"
           :key="item.title"
           link
         >
-          <v-list-item-icon>
-            <v-icon>{{ item.icon }}</v-icon>
+          <v-list-item-icon >
+            <v-icon color="primary">{{ item.icon }}</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title>{{ item.title }} </v-list-item-title>
           </v-list-item-content>
+
+          <v-menu offset-y open-on-hover v-if="item.subitems && item.subitems.length > 0">
+        <template v-slot:activator="{ on }">
+          <v-btn icon v-on="on">
+            <v-icon>mdi-menu-down</v-icon>
+          </v-btn>
+        </template>
+        
+        <v-list>
+          <v-list-item v-for="subitem in item.subitems" :key="subitem.title" link>
+            <v-list-item-title>{{ subitem.title }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer> 
-    <v-btn
-        class="ma-2"
-        color="primary"
-        dark
-      >
-        <v-icon dark>
-          mdi-import
-        </v-icon>
-        Importer 
-      </v-btn>  
 
-      <v-btn
-        class="ma-2"
-        color="primary"
-        dark
-      >
-        <v-icon dark>
-          mdi-export-variant
-        </v-icon>
-        Exporter en excel
-      </v-btn>   
+
+      <template v-slot:prepend>
+        <v-list-item two-line>
+         
+
+          <v-list-item-content>
+            <v-list-item-title><v-icon> mdi-gavel</v-icon> Administration RH</v-list-item-title>
+            <v-list-item-subtitle>Activé</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
+      </template>
+
+      <br><br><br><br><br><br><br><br><br><br>
+
+      
+
+    </v-navigation-drawer> 
+    <br><br>
+  
   
 <CrudCollab/>
 
 
+  
    
  
 </div>
@@ -118,19 +123,30 @@ import $ from "jquery";
 
 import CrudCollab from "../components/CrudCollab.vue";
 
+
 //import TD_JS_CLIENTS from "../datatables/TD_JS_CLIENTS.vue";
 
 
 export default {
   name: "CollaborateurVue",
-  components: { CrudCollab },
+  components: { CrudCollab},
   data: () => {
     return {
     
       items: [
-          { title: 'Home', icon: 'mdi-home-city' },
-          { title: 'My Account', icon: 'mdi-account' },
-          { title: 'Users', icon: 'mdi-account-group-outline' },
+          { title: 'Dashboard', icon: 'mdi-view-dashboard'},
+         // { title: 'Mon compte', icon: 'mdi-account-box' },
+          { title: 'Collaborateurs', icon: 'mdi-account-group-outline' ,
+          subitems: [
+            { title: 'Liste collaborateurs' },
+            { title: 'Nouveau collaborateur' }
+              ]},
+          { title: 'Campagnes', icon: 'mdi-text-box-multiple-outline' ,
+          subitems: [
+            { title: 'Liste Campagnes' },
+            { title: 'Créer Campagne' }
+              ]},
+          //{ title: 'Objectifss', icon: 'mdi-bullseye-arrow ' },
         ],
        
         notice:{
@@ -209,3 +225,6 @@ export default {
     }
     }
 </script>
+<style >
+
+</style>
