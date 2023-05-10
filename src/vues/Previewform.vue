@@ -142,7 +142,54 @@
    <h2 style="color:black; font-size: medium ;"> <v-icon medium color="red"> mdi-bullseye-arrow </v-icon> 4. Points sur les objectifs fixés </h2>
          <br>
         <v-card width="cover" outlined > 
-          <v-col>  <h4 style="color:#165c77"> 4.1 Objectifs personnels </h4></v-col>
+          
+          <v-row class="my-row">  
+          <v-col cols="8" sm="6">  <h4 style="color:#165c77"> 4.1 Objectifs personnels </h4></v-col>
+          <v-col cols="4" class="text-right" sm="6">
+
+            
+          <v-menu offset-y>
+           <template #activator="{ on, attrs }">
+        <v-btn v-bind="attrs" v-on="on" :class="selectedOption === 'realisable' ? 'green darken-4' : 'primary'">
+          {{ selectedOption === 'realisable' ? 'Réalisable' : 'À risque' }}
+        </v-btn>
+      </template>
+
+      <v-list>
+        <v-list-item v-for="option in remainingOptions" :key="option.value" @click="selectOption(option.value)">
+          <v-list-item-title>{{ option.label }}</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-menu>
+
+    <v-dialog v-model="dialogVisible" max-width="500px">
+      <v-card>
+        <v-card-title>
+          {{ selectedOption === 'risque' ? 'Option à risque' : 'Autre option' }}
+        </v-card-title>
+
+        <v-card-text>
+          <v-row>
+            <v-col cols="12" sm="6">
+              <NeoTextField label="Motif" placeholder="Motif...." v-model="champ1"></NeoTextField>
+            </v-col>
+            <v-col cols="12" sm="6">
+              <NeoTextField label="Commentaire"  placeholder="votre commentaire !..." v-model="champ2"></NeoTextField>
+            </v-col>
+          </v-row>
+        </v-card-text>
+
+        <v-card-actions>
+          <v-btn color="primary" text @click="saveData">Enregistrer</v-btn>
+          <v-btn color="grey" text @click="closeDialog">Fermer</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+  
+      </v-col>
+     </v-row>
+
+         
           <v-col>
           <v-list>
           <v-list-item>
@@ -187,8 +234,9 @@
 
 
         <br>
-    
-        <v-btn color="primary" type="submit">Publier Réponse</v-btn>
+      <v-col class="text-right" >
+        <v-btn color="primary" type="submit" > Publier Réponse</v-btn>
+      </v-col>
 
         </v-form>
         </v-card-text>
@@ -220,31 +268,60 @@
 import NeoTextArea from "../components/NeoTextArea.vue";
 import NeoTextField from "../components/NeoTextField.vue";
 
+
     
     export default {
       name: "EntretienVue",
       data() {
     return {
+      selectedOption: 'realisable',
+      menuOptions: [
+        { label: 'Réalisable', value: 'realisable' },
+        { label: 'À risque', value: 'risque' },
+      ],
+      dialogVisible: false,
+      champ1: '',
+      champ2: '',
      
       knowledge: 33,
       options: [
         { label: 'Coordonner la mise à jour des documents de vente', checked: false },
         { label: 'Site web à jour', checked: false },
         { label: '5 premieres commandes passées', checked: false },
+      
        
       ]
     }},
       methods: {
     onScroll() {
       console.log('Défilement détecté')
-    }
+    },
+    selectOption(optionValue) {
+      this.selectedOption = optionValue;
+      if (optionValue === 'risque') {
+        this.dialogVisible = true;
+      }
+    },
+    saveData() {
+      // Effectuez ici votre logique pour enregistrer les valeurs
+      console.log('Champ 1:', this.champ1);
+      console.log('Champ 2:', this.champ2);
+    },
+    closeDialog() {
+      this.dialogVisible = false;
+      // Réinitialisez les valeurs des champs si nécessaire
+      this.champ1 = '';
+      this.champ2 = '';
+    },
   },
   computed: {
     percentage() {
       const checkedCount = this.options.filter(option => option.checked).length;
       return (checkedCount / this.options.length * 100).toFixed(2);
     },
-   
+    remainingOptions() {
+      return this.menuOptions.filter((option) => option.value !== this.selectedOption);
+    },
 
   },
       components: { NeoTextField, NeoTextArea },
@@ -263,5 +340,17 @@ import NeoTextField from "../components/NeoTextField.vue";
 }
 .title{
   text-align: center;
+}
+.green {
+    background-color: "green darken-4" !important;
+    color: white !important;
+  }
+  
+  .blue {
+    background-color: "primary" !important;
+    color: white !important;
+  }
+  .my-row {
+  margin: 10px 0;
 }
 </style>

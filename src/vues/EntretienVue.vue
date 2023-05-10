@@ -368,6 +368,15 @@ export default {
  
   data: () => {
     return {
+      selectedOption: 'realisable',
+        options: [
+          { label: 'Réalisable', value: 'realisable' },
+          { label: 'À risque', value: 'risque' },
+        ],
+
+      dialogVisible: false,
+      champ1: '',
+      champ2: '',
       
      
       checked: false,
